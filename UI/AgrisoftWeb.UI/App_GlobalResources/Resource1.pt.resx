@@ -1,0 +1,2298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="str2998" xml:space="preserve">
+    <value>Jor / Ha.</value>
+  </data>
+  <data name="str2999" xml:space="preserve">
+    <value>Custo Ind.</value>
+  </data>
+  <data name="str3000" xml:space="preserve">
+    <value>Culturas / Area de trabalho</value>
+  </data>
+  <data name="str3001" xml:space="preserve">
+    <value>Atividade</value>
+  </data>
+  <data name="str3002" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str3003" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="str3004" xml:space="preserve">
+    <value>Até</value>
+  </data>
+  <data name="str3005" xml:space="preserve">
+    <value>Recurso</value>
+  </data>
+  <data name="str3006" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str3007" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="str3008" xml:space="preserve">
+    <value>Custo Unitario</value>
+  </data>
+  <data name="str3009" xml:space="preserve">
+    <value>Quantía Total</value>
+  </data>
+  <data name="str3010" xml:space="preserve">
+    <value>Maquinária</value>
+  </data>
+  <data name="str3011" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="str3012" xml:space="preserve">
+    <value>Irrigação</value>
+  </data>
+  <data name="str3013" xml:space="preserve">
+    <value>Aplicaciones de Insumos</value>
+  </data>
+  <data name="str3014" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="str3015" xml:space="preserve">
+    <value>Emissão</value>
+  </data>
+  <data name="str3016" xml:space="preserve">
+    <value>Hora de Emision</value>
+  </data>
+  <data name="str3017" xml:space="preserve">
+    <value>Folha</value>
+  </data>
+  <data name="str3018" xml:space="preserve">
+    <value>Hetares</value>
+  </data>
+  <data name="str3019" xml:space="preserve">
+    <value>Custo Por Hetarea</value>
+  </data>
+  <data name="str3020" xml:space="preserve">
+    <value>Total por Recurso</value>
+  </data>
+  <data name="str3021" xml:space="preserve">
+    <value>Total por Área de trabalho</value>
+  </data>
+  <data name="str3022" xml:space="preserve">
+    <value>Total Atividade</value>
+  </data>
+  <data name="str3023" xml:space="preserve">
+    <value>Total Produto</value>
+  </data>
+  <data name="str5008" xml:space="preserve">
+    <value>O codigo debe ser de 6 carateres</value>
+  </data>
+  <data name="str5009" xml:space="preserve">
+    <value>Faltam Descrição </value>
+  </data>
+  <data name="str5010" xml:space="preserve">
+    <value>NO SE ENCONTRO REGISTROS DE CULTURA</value>
+  </data>
+  <data name="str200" xml:space="preserve">
+    <value>Codigo de Atividade</value>
+  </data>
+  <data name="str201" xml:space="preserve">
+    <value>Atividades</value>
+  </data>
+  <data name="str202" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="str203" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str204" xml:space="preserve">
+    <value>Não se pudo gravar o codigo de atividade</value>
+  </data>
+  <data name="str205" xml:space="preserve">
+    <value>Não se pudo gravar la Atividade</value>
+  </data>
+  <data name="str206" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str207" xml:space="preserve">
+    <value>O registro não existe . </value>
+  </data>
+  <data name="str300" xml:space="preserve">
+    <value>Código de área de trabalho</value>
+  </data>
+  <data name="str301" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str302" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="str303" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str304" xml:space="preserve">
+    <value>O Codigo Existe</value>
+  </data>
+  <data name="str305" xml:space="preserve">
+    <value>O Codigo Existe</value>
+  </data>
+  <data name="str306" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str307" xml:space="preserve">
+    <value>O registro não existe</value>
+  </data>
+  <data name="str308" xml:space="preserve">
+    <value>O codigo debe ser de 7 carateres</value>
+  </data>
+  <data name="str309" xml:space="preserve">
+    <value>Faltam descrição </value>
+  </data>
+  <data name="str310" xml:space="preserve">
+    <value>Não SE ENCONTRO REGISTROS DE Área de trabalho</value>
+  </data>
+  <data name="str311" xml:space="preserve">
+    <value>Hetares</value>
+  </data>
+  <data name="str312" xml:space="preserve">
+    <value>Faltam quantidades de hetares</value>
+  </data>
+  <data name="str313" xml:space="preserve">
+    <value>Codigo de Área de trabalho</value>
+  </data>
+  <data name="str314" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="str315" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="str528" xml:space="preserve">
+    <value>Unitário</value>
+  </data>
+  <data name="str529" xml:space="preserve">
+    <value>Nulo</value>
+  </data>
+  <data name="str530" xml:space="preserve">
+    <value>Não SE ENCONTRO REGISTROS DE CUSTOS</value>
+  </data>
+  <data name="str531" xml:space="preserve">
+    <value>Custos de Maquinária</value>
+  </data>
+  <data name="str532" xml:space="preserve">
+    <value>Irrigação</value>
+  </data>
+  <data name="str533" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="str534" xml:space="preserve">
+    <value>CODIGO MAQUINARIA não EXISTE</value>
+  </data>
+  <data name="str535" xml:space="preserve">
+    <value>CODIGO BOMBA não EXISTE</value>
+  </data>
+  <data name="str536" xml:space="preserve">
+    <value>Codigo de Bomba de  Irrigação  </value>
+  </data>
+  <data name="str537" xml:space="preserve">
+    <value>Descrição  Bomba  Irrigação  </value>
+  </data>
+  <data name="str538" xml:space="preserve">
+    <value>Outros Gastos</value>
+  </data>
+  <data name="str539" xml:space="preserve">
+    <value>Trabalhador empregado operário</value>
+  </data>
+  <data name="str540" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="str541" xml:space="preserve">
+    <value>Campanha</value>
+  </data>
+  <data name="str542" xml:space="preserve">
+    <value>Campanha Incorreta</value>
+  </data>
+  <data name="str543" xml:space="preserve">
+    <value>Gravado satisfatoriamente</value>
+  </data>
+  <data name="str608" xml:space="preserve">
+    <value>Descrição  Área de trabalho</value>
+  </data>
+  <data name="str609" xml:space="preserve">
+    <value>Quilos</value>
+  </data>
+  <data name="str610" xml:space="preserve">
+    <value>Registro não pudo ser gravado</value>
+  </data>
+  <data name="str611" xml:space="preserve">
+    <value>Registro não pudo ser gravado</value>
+  </data>
+  <data name="str612" xml:space="preserve">
+    <value>Registro não pudo ser apagado</value>
+  </data>
+  <data name="str613" xml:space="preserve">
+    <value>REGISTRO não EXISTE</value>
+  </data>
+  <data name="str614" xml:space="preserve">
+    <value>Guia</value>
+  </data>
+  <data name="str615" xml:space="preserve">
+    <value>INCORRET DATE INPUT</value>
+  </data>
+  <data name="str616" xml:space="preserve">
+    <value>PRODUCT CODE DOESNT EXIST</value>
+  </data>
+  <data name="str617" xml:space="preserve">
+    <value>CENTER COST CODE DOESNT EXIST</value>
+  </data>
+  <data name="str618" xml:space="preserve">
+    <value>KILOS MUST BE DIFERENT TO CERO</value>
+  </data>
+  <data name="str619" xml:space="preserve">
+    <value>Não SE ENCONTRO REGISTROS DE COLHEITAS</value>
+  </data>
+  <data name="str700" xml:space="preserve">
+    <value>Nivel de detalle</value>
+  </data>
+  <data name="str701" xml:space="preserve">
+    <value>Microsoft Excel Exporting</value>
+  </data>
+  <data name="str702" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="str703" xml:space="preserve">
+    <value>Nome de arquivo</value>
+  </data>
+  <data name="str704" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="str705" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="str706" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="str707" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="str708" xml:space="preserve">
+    <value>NOME DE ARQUIVO INCORRETO</value>
+  </data>
+  <data name="str709" xml:space="preserve">
+    <value>Seleccione classe de envio. </value>
+  </data>
+  <data name="str710" xml:space="preserve">
+    <value>Erro: não  está pronta</value>
+  </data>
+  <data name="str711" xml:space="preserve">
+    <value>Processo terminado exitosamente</value>
+  </data>
+  <data name="str712" xml:space="preserve">
+    <value>O processo não termino satisfatoriamente</value>
+  </data>
+  <data name="str713" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="str801" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="str802" xml:space="preserve">
+    <value>Custos dos operários num centro de custos</value>
+  </data>
+  <data name="str803" xml:space="preserve">
+    <value>Aplications Cost in a Center Cost</value>
+  </data>
+  <data name="str804" xml:space="preserve">
+    <value>Watering Cost in a Center Cost</value>
+  </data>
+  <data name="str805" xml:space="preserve">
+    <value>Machinery Costs in a Center Cost</value>
+  </data>
+  <data name="str806" xml:space="preserve">
+    <value>Custos totais  por recursos </value>
+  </data>
+  <data name="str807" xml:space="preserve">
+    <value>Custo Total Custo by Ativities</value>
+  </data>
+  <data name="str808" xml:space="preserve">
+    <value>Resum of Costs by Center Costs</value>
+  </data>
+  <data name="str809" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="str901" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="str902" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str903" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="str904" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="str905" xml:space="preserve">
+    <value>Descrição  Área de trabalho</value>
+  </data>
+  <data name="str906" xml:space="preserve">
+    <value>Procurar </value>
+  </data>
+  <data name="str907" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="str908" xml:space="preserve">
+    <value>Microsoft Excel Exporting</value>
+  </data>
+  <data name="str909" xml:space="preserve">
+    <value>Quantia Total</value>
+  </data>
+  <data name="str2000" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="str2001" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="str2002" xml:space="preserve">
+    <value>Atividades</value>
+  </data>
+  <data name="str2003" xml:space="preserve">
+    <value>Maquinária</value>
+  </data>
+  <data name="str2004" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str2005" xml:space="preserve">
+    <value>Aplicaciones de Produtos</value>
+  </data>
+  <data name="str2006" xml:space="preserve">
+    <value>Custos de Maquinária</value>
+  </data>
+  <data name="str2007" xml:space="preserve">
+    <value>Custos de Irrigação</value>
+  </data>
+  <data name="str2008" xml:space="preserve">
+    <value>Custos de Mão</value>
+  </data>
+  <data name="str2009" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="str2010" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="str2011" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="str2012" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="str2013" xml:space="preserve">
+    <value>Bombas de Irrigação</value>
+  </data>
+  <data name="str3024" xml:space="preserve">
+    <value>Acabou</value>
+  </data>
+  <data name="str3025" xml:space="preserve">
+    <value>A  impressora está  inoperante.</value>
+  </data>
+  <data name="str3026" xml:space="preserve">
+    <value>Imprimindo ?</value>
+  </data>
+  <data name="str3027" xml:space="preserve">
+    <value>Datas</value>
+  </data>
+  <data name="str3028" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="str3029" xml:space="preserve">
+    <value>Dados exportáveis </value>
+  </data>
+  <data name="str3030" xml:space="preserve">
+    <value>Relação</value>
+  </data>
+  <data name="str3031" xml:space="preserve">
+    <value>Prévia </value>
+  </data>
+  <data name="str3032" xml:space="preserve">
+    <value>Resumo de Colheitas</value>
+  </data>
+  <data name="str3033" xml:space="preserve">
+    <value>Enviando</value>
+  </data>
+  <data name="str3034" xml:space="preserve">
+    <value>Quilos</value>
+  </data>
+  <data name="str3035" xml:space="preserve">
+    <value>Quilos / Ha</value>
+  </data>
+  <data name="str3036" xml:space="preserve">
+    <value>Mostrar </value>
+  </data>
+  <data name="str3037" xml:space="preserve">
+    <value>Graficar </value>
+  </data>
+  <data name="str3038" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="str3039" xml:space="preserve">
+    <value>Meses</value>
+  </data>
+  <data name="str3040" xml:space="preserve">
+    <value>Anos</value>
+  </data>
+  <data name="str3041" xml:space="preserve">
+    <value>Semanas</value>
+  </data>
+  <data name="str3042" xml:space="preserve">
+    <value>Colheitas por dias</value>
+  </data>
+  <data name="str3043" xml:space="preserve">
+    <value>Colheitas por meses</value>
+  </data>
+  <data name="str3044" xml:space="preserve">
+    <value>Anos </value>
+  </data>
+  <data name="str3045" xml:space="preserve">
+    <value>Colheitas por semanas</value>
+  </data>
+  <data name="str3046" xml:space="preserve">
+    <value>Quilos</value>
+  </data>
+  <data name="str3047" xml:space="preserve">
+    <value>Datas</value>
+  </data>
+  <data name="str3048" xml:space="preserve">
+    <value>Grafico</value>
+  </data>
+  <data name="str3049" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="str3050" xml:space="preserve">
+    <value>Grafico de Colheitas</value>
+  </data>
+  <data name="str3051" xml:space="preserve">
+    <value>Não existe informação</value>
+  </data>
+  <data name="str3052" xml:space="preserve">
+    <value>Error gerando grafico</value>
+  </data>
+  <data name="str3053" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="str3054" xml:space="preserve">
+    <value>Cancelar Processo </value>
+  </data>
+  <data name="str3055" xml:space="preserve">
+    <value>Escrever  em cima?</value>
+  </data>
+  <data name="str3056" xml:space="preserve">
+    <value>Processo Satisfatorio</value>
+  </data>
+  <data name="str3057" xml:space="preserve">
+    <value>Escolher</value>
+  </data>
+  <data name="str3058" xml:space="preserve">
+    <value>Aceitar</value>
+  </data>
+  <data name="str3059" xml:space="preserve">
+    <value>Diretório</value>
+  </data>
+  <data name="str3060" xml:space="preserve">
+    <value>Roterio</value>
+  </data>
+  <data name="str3061" xml:space="preserve">
+    <value>Sem  formato  ( modo  rápido )</value>
+  </data>
+  <data name="str3062" xml:space="preserve">
+    <value>ERROR: File Name</value>
+  </data>
+  <data name="str3063" xml:space="preserve">
+    <value>Interrompido</value>
+  </data>
+  <data name="str4001" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="str4002" xml:space="preserve">
+    <value>Codigo Pessoal</value>
+  </data>
+  <data name="str4003" xml:space="preserve">
+    <value>Nome Pessoal</value>
+  </data>
+  <data name="str4004" xml:space="preserve">
+    <value>O codigo introducido es incorreto</value>
+  </data>
+  <data name="str4005" xml:space="preserve">
+    <value>O codigo introducido já existe</value>
+  </data>
+  <data name="str4006" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str4007" xml:space="preserve">
+    <value>O registro não existe</value>
+  </data>
+  <data name="str4008" xml:space="preserve">
+    <value>oito  (8)</value>
+  </data>
+  <data name="str4009" xml:space="preserve">
+    <value>Faltam Nome de Pessoal</value>
+  </data>
+  <data name="str4010" xml:space="preserve">
+    <value>Não se encontro registro</value>
+  </data>
+  <data name="str4011" xml:space="preserve">
+    <value>O Pessoal introducido já tem</value>
+  </data>
+  <data name="str4012" xml:space="preserve">
+    <value>horas trabalhadas este dia, continuar?</value>
+  </data>
+  <data name="str4013" xml:space="preserve">
+    <value>La afetacion esta sendo utilizada no Pagamentos a Trabalhadores!</value>
+  </data>
+  <data name="str4014" xml:space="preserve">
+    <value>Sobreescrever?</value>
+  </data>
+  <data name="str4015" xml:space="preserve">
+    <value>Stock insuficiente, deseja atualizar?</value>
+  </data>
+  <data name="str1001" xml:space="preserve">
+    <value>Não se pode ligar à base de datos </value>
+  </data>
+  <data name="str1002" xml:space="preserve">
+    <value>Registros Visualizados</value>
+  </data>
+  <data name="str1003" xml:space="preserve">
+    <value>Achado </value>
+  </data>
+  <data name="str1004" xml:space="preserve">
+    <value>Procurar Por</value>
+  </data>
+  <data name="str1005" xml:space="preserve">
+    <value>Apagar </value>
+  </data>
+  <data name="str1006" xml:space="preserve">
+    <value>Não existen Registros</value>
+  </data>
+  <data name="str208" xml:space="preserve">
+    <value>O codigo de atividade deve ser de seis (6) carateres </value>
+  </data>
+  <data name="str209" xml:space="preserve">
+    <value>Faltam descriçao</value>
+  </data>
+  <data name="str210" xml:space="preserve">
+    <value>Não SE ENCONTRO REGISTROS DE ATIVIDADES</value>
+  </data>
+  <data name="str211" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="str212" xml:space="preserve">
+    <value>Localização  de C.C.</value>
+  </data>
+  <data name="str213" xml:space="preserve">
+    <value>La provisão foi cancelada / fusão / trocada por letras por Tesouraria .Primeiro deve apagar la operação por Tesouraria.</value>
+  </data>
+  <data name="str214" xml:space="preserve">
+    <value>Ingrediente duplicado</value>
+  </data>
+  <data name="str215" xml:space="preserve">
+    <value>La venda foi cancelada / fusão / trocada por letras por Tesouraria .Primeiro deve apagar la operação por Tesouraria.</value>
+  </data>
+  <data name="str216" xml:space="preserve">
+    <value>Data existe!</value>
+  </data>
+  <data name="str5001" xml:space="preserve">
+    <value>Culturas</value>
+  </data>
+  <data name="str5002" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="str5003" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str5004" xml:space="preserve">
+    <value>O registro não pudo ser gravado</value>
+  </data>
+  <data name="str5005" xml:space="preserve">
+    <value>O registro não pudo ser gravado</value>
+  </data>
+  <data name="str5006" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str5007" xml:space="preserve">
+    <value>Registro não existe</value>
+  </data>
+  <data name="str512" xml:space="preserve">
+    <value>Descrição  Área de trabalho</value>
+  </data>
+  <data name="str513" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="str514" xml:space="preserve">
+    <value>Custo Estândar</value>
+  </data>
+  <data name="str515" xml:space="preserve">
+    <value>Quantia Total</value>
+  </data>
+  <data name="str516" xml:space="preserve">
+    <value>Classe de custo</value>
+  </data>
+  <data name="str517" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="str518" xml:space="preserve">
+    <value>O registro não se pudo gravar</value>
+  </data>
+  <data name="str519" xml:space="preserve">
+    <value>O registro não se pudo gravar</value>
+  </data>
+  <data name="str520" xml:space="preserve">
+    <value>O registro não se pudo borrar</value>
+  </data>
+  <data name="str521" xml:space="preserve">
+    <value>O registro não existe</value>
+  </data>
+  <data name="str522" xml:space="preserve">
+    <value>Númer. diverso de Zero </value>
+  </data>
+  <data name="str523" xml:space="preserve">
+    <value>Data incorreta</value>
+  </data>
+  <data name="str524" xml:space="preserve">
+    <value>Não existe o codigo do produto</value>
+  </data>
+  <data name="str525" xml:space="preserve">
+    <value>Não existe o codigo de Atividade</value>
+  </data>
+  <data name="str526" xml:space="preserve">
+    <value>já</value>
+  </data>
+  <data name="str527" xml:space="preserve">
+    <value>Quantidade Incorreta</value>
+  </data>
+  <data name="str544" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="str545" xml:space="preserve">
+    <value>Maquinária</value>
+  </data>
+  <data name="str546" xml:space="preserve">
+    <value>Atividade</value>
+  </data>
+  <data name="str547" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str548" xml:space="preserve">
+    <value>Faltam tipo de câmbio ($-S/.) </value>
+  </data>
+  <data name="str549" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="str550" xml:space="preserve">
+    <value>Ingrediente</value>
+  </data>
+  <data name="str551" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="str552" xml:space="preserve">
+    <value>Erro  Data : A data introduzida é  maior do que o dia atual.</value>
+  </data>
+  <data name="str553" xml:space="preserve">
+    <value>O registro selecionado deve ser apagado pelo módulo de tesouraria.</value>
+  </data>
+  <data name="str554" xml:space="preserve">
+    <value>Atividade sujeita a impostos. Não considerado para calculo de Pagamentos a Trabalhadores!</value>
+  </data>
+  <data name="str555" xml:space="preserve">
+    <value>A seguranca foi manipulada. Não intente outra vez, o próximo intento, sua computadora perderá informação!</value>
+  </data>
+  <data name="str556" xml:space="preserve">
+    <value>Sua Versão Demo espirou, contatar-se vía mail agrisoft2000@hotmail.com.</value>
+  </data>
+  <data name="str96" xml:space="preserve">
+    <value>Orçamento</value>
+  </data>
+  <data name="str97" xml:space="preserve">
+    <value>Regularização do Recursos y Parametros</value>
+  </data>
+  <data name="str98" xml:space="preserve">
+    <value>Regularização Batch Custos Estandar</value>
+  </data>
+  <data name="str101" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="str102" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="str103" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str104" xml:space="preserve">
+    <value>Error: Não se pudo gravar o produto</value>
+  </data>
+  <data name="str105" xml:space="preserve">
+    <value>Error: Não se pudo gravar o produto</value>
+  </data>
+  <data name="str106" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str107" xml:space="preserve">
+    <value>O registro não existe</value>
+  </data>
+  <data name="str108" xml:space="preserve">
+    <value>O codigo debe ser de 6 carateres</value>
+  </data>
+  <data name="str109" xml:space="preserve">
+    <value>Faltam Descrição </value>
+  </data>
+  <data name="str110" xml:space="preserve">
+    <value>Não foi possivel apagar. Esta sendo usado na tábua custos</value>
+  </data>
+  <data name="str111" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="str601" xml:space="preserve">
+    <value>Colheitas</value>
+  </data>
+  <data name="str602" xml:space="preserve">
+    <value>Código de colheitas</value>
+  </data>
+  <data name="str603" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="str604" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="str605" xml:space="preserve">
+    <value>Codigo Produto</value>
+  </data>
+  <data name="str606" xml:space="preserve">
+    <value>Descrição Produto</value>
+  </data>
+  <data name="str607" xml:space="preserve">
+    <value>Codigo Área de trabalho</value>
+  </data>
+  <data name="str401" xml:space="preserve">
+    <value>Maquinária</value>
+  </data>
+  <data name="str402" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="str403" xml:space="preserve">
+    <value>Descrição </value>
+  </data>
+  <data name="str404" xml:space="preserve">
+    <value>Maquinária</value>
+  </data>
+  <data name="str405" xml:space="preserve">
+    <value>Bomba de Irrigação </value>
+  </data>
+  <data name="str406" xml:space="preserve">
+    <value>O codigo não existe</value>
+  </data>
+  <data name="str407" xml:space="preserve">
+    <value>O codigo não existe</value>
+  </data>
+  <data name="str408" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str409" xml:space="preserve">
+    <value>O registro não existe</value>
+  </data>
+  <data name="str410" xml:space="preserve">
+    <value>O codigo de Maquinária es de 6 carateres</value>
+  </data>
+  <data name="str411" xml:space="preserve">
+    <value>Faltam Descrição </value>
+  </data>
+  <data name="str413" xml:space="preserve">
+    <value>Manutenção Maquinária</value>
+  </data>
+  <data name="str414" xml:space="preserve">
+    <value>Codigo de Maquinária</value>
+  </data>
+  <data name="str415" xml:space="preserve">
+    <value>Quantidade total</value>
+  </data>
+  <data name="str6001" xml:space="preserve">
+    <value>Etapas</value>
+  </data>
+  <data name="str6002" xml:space="preserve">
+    <value>Codigo de etapa</value>
+  </data>
+  <data name="str6003" xml:space="preserve">
+    <value>Descrição de Etapa</value>
+  </data>
+  <data name="str6004" xml:space="preserve">
+    <value>Ubicación de C.C.</value>
+  </data>
+  <data name="str6005" xml:space="preserve">
+    <value>ERROR : NO SE PUDO REGISTRAR ETAPA</value>
+  </data>
+  <data name="str6006" xml:space="preserve">
+    <value>ERROR : NO SE PUDO GRAVAR ETAPA</value>
+  </data>
+  <data name="str6007" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str6008" xml:space="preserve">
+    <value>ERROR : REGISTRO NO EXISTE</value>
+  </data>
+  <data name="str6009" xml:space="preserve">
+    <value>três  (3)</value>
+  </data>
+  <data name="str6010" xml:space="preserve">
+    <value>VALIDAR : DESCRIPCION DE ETAPA NO DEBE SER NULO </value>
+  </data>
+  <data name="str6011" xml:space="preserve">
+    <value>VALIDAR : UBICACION CENTRO DE CUSTOS DEBE SER NUMERICO</value>
+  </data>
+  <data name="str6012" xml:space="preserve">
+    <value>ERROR : NO SE ENCONTRO REGISTRO DE ETAPAS</value>
+  </data>
+  <data name="str6013" xml:space="preserve">
+    <value>Campanha debe ser numérico</value>
+  </data>
+  <data name="str6014" xml:space="preserve">
+    <value>Não existe Ingressada </value>
+  </data>
+  <data name="str6015" xml:space="preserve">
+    <value>Não existe o cultura ingresado</value>
+  </data>
+  <data name="str6016" xml:space="preserve">
+    <value>Não existe la Atividade ingresada</value>
+  </data>
+  <data name="str6017" xml:space="preserve">
+    <value>Não existe la etapa ingresada</value>
+  </data>
+  <data name="str6018" xml:space="preserve">
+    <value>Introducir número de Campanha</value>
+  </data>
+  <data name="str6019" xml:space="preserve">
+    <value>O codigo escolhilo é propiedade do sistema</value>
+  </data>
+  <data name="str6020" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="str1" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="str2" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="str3" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="str4" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="str5" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="str6" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="str7" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="str8" xml:space="preserve">
+    <value>Relacão de tudo.</value>
+  </data>
+  <data name="str9" xml:space="preserve">
+    <value>Distribução</value>
+  </data>
+  <data name="str10" xml:space="preserve">
+    <value>O codigo escolhilo é  propiedade  do  sistema</value>
+  </data>
+  <data name="str11" xml:space="preserve">
+    <value>Relatório Generado</value>
+  </data>
+  <data name="str12" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="str13" xml:space="preserve">
+    <value>Parametros</value>
+  </data>
+  <data name="str14" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="str15" xml:space="preserve">
+    <value>Centros de Custos y Processos</value>
+  </data>
+  <data name="str501" xml:space="preserve">
+    <value>Aplicações de produtos</value>
+  </data>
+  <data name="str502" xml:space="preserve">
+    <value>Codigo de Custo</value>
+  </data>
+  <data name="str503" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="str504" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="str505" xml:space="preserve">
+    <value>Código Produto</value>
+  </data>
+  <data name="str506" xml:space="preserve">
+    <value>Descrição Produto</value>
+  </data>
+  <data name="str507" xml:space="preserve">
+    <value>Codigo Maquinária</value>
+  </data>
+  <data name="str508" xml:space="preserve">
+    <value>Descrição  Maquinária</value>
+  </data>
+  <data name="str509" xml:space="preserve">
+    <value>Codigo Atividade</value>
+  </data>
+  <data name="str510" xml:space="preserve">
+    <value>Descrição  Atividade</value>
+  </data>
+  <data name="str511" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str8000" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="str8001" xml:space="preserve">
+    <value>Número de Guia não valido</value>
+  </data>
+  <data name="str8002" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="str7001" xml:space="preserve">
+    <value>Provedor</value>
+  </data>
+  <data name="str7002" xml:space="preserve">
+    <value>Codigo </value>
+  </data>
+  <data name="str7003" xml:space="preserve">
+    <value>Nome </value>
+  </data>
+  <data name="str7004" xml:space="preserve">
+    <value>Guia</value>
+  </data>
+  <data name="str7005" xml:space="preserve">
+    <value>Nro. Documento</value>
+  </data>
+  <data name="str7006" xml:space="preserve">
+    <value>Quantia Total</value>
+  </data>
+  <data name="str7007" xml:space="preserve">
+    <value>Linhas</value>
+  </data>
+  <data name="str9000" xml:space="preserve">
+    <value>Estoque</value>
+  </data>
+  <data name="str9001" xml:space="preserve">
+    <value>Pressione procurar .</value>
+  </data>
+  <data name="str9002" xml:space="preserve">
+    <value>Procesar</value>
+  </data>
+  <data name="str9003" xml:space="preserve">
+    <value>Fecho  contábil</value>
+  </data>
+  <data name="str9004" xml:space="preserve">
+    <value>Entradas (Unid)</value>
+  </data>
+  <data name="str9005" xml:space="preserve">
+    <value>Saídas </value>
+  </data>
+  <data name="str9006" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="str9007" xml:space="preserve">
+    <value>Custo Unitario</value>
+  </data>
+  <data name="str9008" xml:space="preserve">
+    <value>Quantia Total</value>
+  </data>
+  <data name="str9009" xml:space="preserve">
+    <value>Processo finalizado</value>
+  </data>
+  <data name="str9010" xml:space="preserve">
+    <value>Acerto de Inventarios</value>
+  </data>
+  <data name="str9011" xml:space="preserve">
+    <value>Acertos</value>
+  </data>
+  <data name="str9012" xml:space="preserve">
+    <value>Entradas Val.</value>
+  </data>
+  <data name="str9013" xml:space="preserve">
+    <value>Salidas Val.</value>
+  </data>
+  <data name="str9014" xml:space="preserve">
+    <value>Saldo Val.</value>
+  </data>
+  <data name="str9015" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str9016" xml:space="preserve">
+    <value>ACERTO DE INVENTARIOS</value>
+  </data>
+  <data name="str9017" xml:space="preserve">
+    <value>Provedor</value>
+  </data>
+  <data name="str9018" xml:space="preserve">
+    <value>Faltam Número de Documento</value>
+  </data>
+  <data name="str9019" xml:space="preserve">
+    <value>Faltam número de Campanha</value>
+  </data>
+  <data name="str9020" xml:space="preserve">
+    <value>Faltam Tipo de Cambio</value>
+  </data>
+  <data name="str9021" xml:space="preserve">
+    <value>Atualizar Acertos?</value>
+  </data>
+  <data name="str9022" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="str9023" xml:space="preserve">
+    <value>Cargar Acertos</value>
+  </data>
+  <data name="str10000" xml:space="preserve">
+    <value>Manutenção de Maquinária</value>
+  </data>
+  <data name="str10001" xml:space="preserve">
+    <value>Tipo de Cambio</value>
+  </data>
+  <data name="str10002" xml:space="preserve">
+    <value>Faltam Tipo de Cambio</value>
+  </data>
+  <data name="str10003" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="str10004" xml:space="preserve">
+    <value>Nacional</value>
+  </data>
+  <data name="str10005" xml:space="preserve">
+    <value>Estrangeira</value>
+  </data>
+  <data name="str10006" xml:space="preserve">
+    <value>Tipo de Cambio</value>
+  </data>
+  <data name="str10007" xml:space="preserve">
+    <value>ERROR INTERNO</value>
+  </data>
+  <data name="str10008" xml:space="preserve">
+    <value>Freqüência</value>
+  </data>
+  <data name="str10009" xml:space="preserve">
+    <value>Periodicidade</value>
+  </data>
+  <data name="str10010" xml:space="preserve">
+    <value>Classe de Valor</value>
+  </data>
+  <data name="str10011" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="str10012" xml:space="preserve">
+    <value>Regularizar</value>
+  </data>
+  <data name="str10100" xml:space="preserve">
+    <value>Pagamentos a Trabalhadores</value>
+  </data>
+  <data name="str10101" xml:space="preserve">
+    <value>Hrs. Normais</value>
+  </data>
+  <data name="str10102" xml:space="preserve">
+    <value>Hrs. Ex. Simples</value>
+  </data>
+  <data name="str10103" xml:space="preserve">
+    <value>Hrs. Ex. Dobres</value>
+  </data>
+  <data name="str10104" xml:space="preserve">
+    <value>Custo/Hr Standar</value>
+  </data>
+  <data name="str10105" xml:space="preserve">
+    <value>Identidade </value>
+  </data>
+  <data name="str10106" xml:space="preserve">
+    <value>Pontual</value>
+  </data>
+  <data name="str10107" xml:space="preserve">
+    <value>Permanente</value>
+  </data>
+  <data name="str10108" xml:space="preserve">
+    <value>Porcentual</value>
+  </data>
+  <data name="str10109" xml:space="preserve">
+    <value>Fixa</value>
+  </data>
+  <data name="str10110" xml:space="preserve">
+    <value>Impostos a trabalhadores</value>
+  </data>
+  <data name="str10111" xml:space="preserve">
+    <value>Custo Hr. Ex. Simp.</value>
+  </data>
+  <data name="str10112" xml:space="preserve">
+    <value>Custo Hr. Ex. Dbl.</value>
+  </data>
+  <data name="str10113" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="str10114" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="str10115" xml:space="preserve">
+    <value>Permanente</value>
+  </data>
+  <data name="str10116" xml:space="preserve">
+    <value>Fator Conversão</value>
+  </data>
+  <data name="str10117" xml:space="preserve">
+    <value>Não se encontro registros</value>
+  </data>
+  <data name="str10118" xml:space="preserve">
+    <value>A  soma</value>
+  </data>
+  <data name="str10119" xml:space="preserve">
+    <value>Fator de Conversão incorreto</value>
+  </data>
+  <data name="str10120" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="str10121" xml:space="preserve">
+    <value>Conceito</value>
+  </data>
+  <data name="str10122" xml:space="preserve">
+    <value>Register Number</value>
+  </data>
+  <data name="str10123" xml:space="preserve">
+    <value>Periodos de Pagamentos</value>
+  </data>
+  <data name="str10124" xml:space="preserve">
+    <value>Base Imponivle</value>
+  </data>
+  <data name="str10125" xml:space="preserve">
+    <value>Dominical</value>
+  </data>
+  <data name="str10126" xml:space="preserve">
+    <value>Outros Benefícios</value>
+  </data>
+  <data name="str10127" xml:space="preserve">
+    <value>Descontos </value>
+  </data>
+  <data name="str10128" xml:space="preserve">
+    <value>Líquido</value>
+  </data>
+  <data name="str10129" xml:space="preserve">
+    <value>Data Inicial</value>
+  </data>
+  <data name="str10130" xml:space="preserve">
+    <value>Data Final</value>
+  </data>
+  <data name="str10131" xml:space="preserve">
+    <value>Acrescentar </value>
+  </data>
+  <data name="str10132" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="str10133" xml:space="preserve">
+    <value>Classe Hora</value>
+  </data>
+  <data name="str10134" xml:space="preserve">
+    <value>Custo / Hora</value>
+  </data>
+  <data name="str10135" xml:space="preserve">
+    <value>Validação</value>
+  </data>
+  <data name="str10136" xml:space="preserve">
+    <value>Detalle de pagamentos</value>
+  </data>
+  <data name="str10137" xml:space="preserve">
+    <value>Classe Valor</value>
+  </data>
+  <data name="str10138" xml:space="preserve">
+    <value>Custo Hr. Sunat</value>
+  </data>
+  <data name="str10139" xml:space="preserve">
+    <value>Validação de Pagamentos</value>
+  </data>
+  <data name="str10140" xml:space="preserve">
+    <value>Ordenar por</value>
+  </data>
+  <data name="str10141" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="str10142" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="str10143" xml:space="preserve">
+    <value>Outros Beneficios</value>
+  </data>
+  <data name="str112" xml:space="preserve">
+    <value>Maquinária / Irrigação  / Produtos</value>
+  </data>
+  <data name="str113" xml:space="preserve">
+    <value>Linhas</value>
+  </data>
+  <data name="str114" xml:space="preserve">
+    <value>Colheitas</value>
+  </data>
+  <data name="str115" xml:space="preserve">
+    <value>Seleccion de Pessoal</value>
+  </data>
+  <data name="str116" xml:space="preserve">
+    <value>Tudos</value>
+  </data>
+  <data name="str117" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="str118" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="str119" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="str120" xml:space="preserve">
+    <value>Tutal</value>
+  </data>
+  <data name="str121" xml:space="preserve">
+    <value>Modulo</value>
+  </data>
+  <data name="str10144" xml:space="preserve">
+    <value>Descontos </value>
+  </data>
+  <data name="str10145" xml:space="preserve">
+    <value>Líquido</value>
+  </data>
+  <data name="str10146" xml:space="preserve">
+    <value>Somar </value>
+  </data>
+  <data name="str10147" xml:space="preserve">
+    <value>Afetac. Asociada</value>
+  </data>
+  <data name="str10148" xml:space="preserve">
+    <value>Ciclo de Pagamento </value>
+  </data>
+  <data name="str10149" xml:space="preserve">
+    <value>Ordenar</value>
+  </data>
+  <data name="str10150" xml:space="preserve">
+    <value>Impostos a trabalhadores Sunat</value>
+  </data>
+  <data name="str10151" xml:space="preserve">
+    <value>Periodos de Impostos a trabalhadores</value>
+  </data>
+  <data name="str10152" xml:space="preserve">
+    <value>Periodo Cerrado</value>
+  </data>
+  <data name="str10153" xml:space="preserve">
+    <value>Tipo de Relatório</value>
+  </data>
+  <data name="str10154" xml:space="preserve">
+    <value>Afeta - Pessoal</value>
+  </data>
+  <data name="str10155" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="str10156" xml:space="preserve">
+    <value>Acrescentar </value>
+  </data>
+  <data name="str10157" xml:space="preserve">
+    <value>Substituir</value>
+  </data>
+  <data name="str10158" xml:space="preserve">
+    <value>Classe Impostos</value>
+  </data>
+  <data name="str10159" xml:space="preserve">
+    <value>Não foi possível apagar . Está sendo usado na tábua Pagamentos</value>
+  </data>
+  <data name="str7008" xml:space="preserve">
+    <value>Armazém</value>
+  </data>
+  <data name="str7009" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="str7010" xml:space="preserve">
+    <value>Endereço  </value>
+  </data>
+  <data name="str7011" xml:space="preserve">
+    <value>Telefone </value>
+  </data>
+  <data name="str7012" xml:space="preserve">
+    <value>Classe de documento</value>
+  </data>
+  <data name="str10200" xml:space="preserve">
+    <value>Bancos</value>
+  </data>
+  <data name="str10201" xml:space="preserve">
+    <value>Setorista</value>
+  </data>
+  <data name="str10202" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="str10300" xml:space="preserve">
+    <value>Plan Contabil</value>
+  </data>
+  <data name="str10301" xml:space="preserve">
+    <value>Conta Contabil</value>
+  </data>
+  <data name="str10302" xml:space="preserve">
+    <value>Anexo</value>
+  </data>
+  <data name="str10303" xml:space="preserve">
+    <value>Debe</value>
+  </data>
+  <data name="str7200" xml:space="preserve">
+    <value>Movimento  entre armazéns </value>
+  </data>
+  <data name="str7201" xml:space="preserve">
+    <value>Classe de Movimento</value>
+  </data>
+  <data name="str7202" xml:space="preserve">
+    <value>Fecho de Kardex</value>
+  </data>
+  <data name="str7203" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="str7204" xml:space="preserve">
+    <value>Data Guia</value>
+  </data>
+  <data name="str10400" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="str10401" xml:space="preserve">
+    <value>Codigo Cliente</value>
+  </data>
+  <data name="str10402" xml:space="preserve">
+    <value>Subdiarios</value>
+  </data>
+  <data name="str10403" xml:space="preserve">
+    <value>Nome Cliente</value>
+  </data>
+  <data name="str10500" xml:space="preserve">
+    <value>Tesouraria</value>
+  </data>
+  <data name="str10501" xml:space="preserve">
+    <value>Data Voucher</value>
+  </data>
+  <data name="str10502" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="str10503" xml:space="preserve">
+    <value>Data Documento</value>
+  </data>
+  <data name="str10504" xml:space="preserve">
+    <value>Não se encontro registro</value>
+  </data>
+  <data name="str10505" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="str10506" xml:space="preserve">
+    <value>Glosa</value>
+  </data>
+  <data name="str10507" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="str10508" xml:space="preserve">
+    <value>Conta y  Anexo</value>
+  </data>
+  <data name="str10509" xml:space="preserve">
+    <value>Nro. Conta</value>
+  </data>
+  <data name="str10510" xml:space="preserve">
+    <value>Anexo</value>
+  </data>
+  <data name="str10511" xml:space="preserve">
+    <value>Quantia</value>
+  </data>
+  <data name="str10304" xml:space="preserve">
+    <value>Haver</value>
+  </data>
+  <data name="str10305" xml:space="preserve">
+    <value>Nro. Doc. Pago</value>
+  </data>
+  <data name="str10306" xml:space="preserve">
+    <value>Classe Doc. Pago</value>
+  </data>
+  <data name="str10307" xml:space="preserve">
+    <value>Data de Pagamento</value>
+  </data>
+  <data name="str10308" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="str10309" xml:space="preserve">
+    <value>Anexo Descrição </value>
+  </data>
+  <data name="str10310" xml:space="preserve">
+    <value>Caixa</value>
+  </data>
+  <data name="str10311" xml:space="preserve">
+    <value>Fusão</value>
+  </data>
+  <data name="str10312" xml:space="preserve">
+    <value>Troca por Letras</value>
+  </data>
+  <data name="str10313" xml:space="preserve">
+    <value>Nro. Letras</value>
+  </data>
+  <data name="str10314" xml:space="preserve">
+    <value>Número Letra</value>
+  </data>
+  <data name="str10315" xml:space="preserve">
+    <value>A quantia deve ser menor ou igual ao saldo do documento.</value>
+  </data>
+  <data name="str10316" xml:space="preserve">
+    <value>Ambas</value>
+  </data>
+  <data name="str10160" xml:space="preserve">
+    <value>Sujeito a Descontos?</value>
+  </data>
+  <data name="str10161" xml:space="preserve">
+    <value>Impostos</value>
+  </data>
+  <data name="str10162" xml:space="preserve">
+    <value>Porcentagem</value>
+  </data>
+  <data name="str10163" xml:space="preserve">
+    <value>Cod. Afec.Sunat</value>
+  </data>
+  <data name="str10164" xml:space="preserve">
+    <value>Afec. Sunat. Asoc.</value>
+  </data>
+  <data name="str10165" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="str10166" xml:space="preserve">
+    <value>Nova</value>
+  </data>
+  <data name="str10167" xml:space="preserve">
+    <value>Valor Novo</value>
+  </data>
+  <data name="str10168" xml:space="preserve">
+    <value>Classe Valor Novo</value>
+  </data>
+  <data name="str10169" xml:space="preserve">
+    <value>Periodo Pagamento</value>
+  </data>
+  <data name="str10170" xml:space="preserve">
+    <value>Rol de Pagamentos C.Sunat</value>
+  </data>
+  <data name="str10171" xml:space="preserve">
+    <value>Pagamentos C.Standar</value>
+  </data>
+  <data name="str10172" xml:space="preserve">
+    <value>Alfabetico</value>
+  </data>
+  <data name="str10173" xml:space="preserve">
+    <value>Maior a Menor</value>
+  </data>
+  <data name="str10174" xml:space="preserve">
+    <value>Ciclo de Pagamento</value>
+  </data>
+  <data name="str11000" xml:space="preserve">
+    <value>Ordem de Compra</value>
+  </data>
+  <data name="str11001" xml:space="preserve">
+    <value>Solicitante</value>
+  </data>
+  <data name="str11002" xml:space="preserve">
+    <value>Autorizacion</value>
+  </data>
+  <data name="str11003" xml:space="preserve">
+    <value>Data de Entrega</value>
+  </data>
+  <data name="str11004" xml:space="preserve">
+    <value>Lugar de Entrega</value>
+  </data>
+  <data name="str11005" xml:space="preserve">
+    <value>Requerimento</value>
+  </data>
+  <data name="str11006" xml:space="preserve">
+    <value>Desautorization</value>
+  </data>
+  <data name="str11007" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="str12000" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="str12001" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="str12002" xml:space="preserve">
+    <value>Ordem de Venda</value>
+  </data>
+  <data name="str12003" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="str12004" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="str12005" xml:space="preserve">
+    <value>El usuario ya tiene autorizacion para el modulo elegido!</value>
+  </data>
+  <data name="str12006" xml:space="preserve">
+    <value>El recurso no tiene inductores en las fechas señaladas.</value>
+  </data>
+  <data name="str12007" xml:space="preserve">
+    <value>El recurso no tiene importes a distribuir</value>
+  </data>
+  <data name="str12008" xml:space="preserve">
+    <value>El proceso presento inconsistencias, el programa ejecutara el proceso de regularizacion solo para lor recursos que posean inductor e importe en el periodo seleccionado, continuar?</value>
+  </data>
+  <data name="str12009" xml:space="preserve">
+    <value>Orden de Compra no autorizada</value>
+  </data>
+  <data name="str12010" xml:space="preserve">
+    <value>Usuario o contraseña incorrectos. Debe respetar Mayusculas y Minusculas</value>
+  </data>
+  <data name="str12011" xml:space="preserve">
+    <value>El usuario actualmente tiene una sesion abierta</value>
+  </data>
+  <data name="str12012" xml:space="preserve">
+    <value>Se ha alcanzado el limite de usuarios concurrentes</value>
+  </data>
+  <data name="str16" xml:space="preserve">
+    <value>Insumos y Produtos</value>
+  </data>
+  <data name="str17" xml:space="preserve">
+    <value>Maquinária y Bombas de Irrigação</value>
+  </data>
+  <data name="str18" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="str19" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="str20" xml:space="preserve">
+    <value>Área de trabalho</value>
+  </data>
+  <data name="str21" xml:space="preserve">
+    <value>Culturas</value>
+  </data>
+  <data name="str22" xml:space="preserve">
+    <value>Etapas</value>
+  </data>
+  <data name="str23" xml:space="preserve">
+    <value>Atividades</value>
+  </data>
+  <data name="str24" xml:space="preserve">
+    <value>Formatos</value>
+  </data>
+  <data name="str25" xml:space="preserve">
+    <value>Área de trabalho Rotatorios</value>
+  </data>
+  <data name="str26" xml:space="preserve">
+    <value>Área de trabalho - Culturas</value>
+  </data>
+  <data name="str27" xml:space="preserve">
+    <value>Custos de Insumos</value>
+  </data>
+  <data name="str28" xml:space="preserve">
+    <value>Custos de Pessoal</value>
+  </data>
+  <data name="str29" xml:space="preserve">
+    <value>Custos de Maquinária</value>
+  </data>
+  <data name="str30" xml:space="preserve">
+    <value>Custos de Irrigação </value>
+  </data>
+  <data name="str31" xml:space="preserve">
+    <value>Custos Diversos</value>
+  </data>
+  <data name="str32" xml:space="preserve">
+    <value>Regularização</value>
+  </data>
+  <data name="str33" xml:space="preserve">
+    <value>Orçamentos</value>
+  </data>
+  <data name="str34" xml:space="preserve">
+    <value>Controle Orçamentario por Recursos</value>
+  </data>
+  <data name="str35" xml:space="preserve">
+    <value>Ingredientes Ativos</value>
+  </data>
+  <data name="str36" xml:space="preserve">
+    <value>Produto - Ingrediente</value>
+  </data>
+  <data name="str37" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="str38" xml:space="preserve">
+    <value>Provedores</value>
+  </data>
+  <data name="str39" xml:space="preserve">
+    <value>Linhas de Produtos</value>
+  </data>
+  <data name="str40" xml:space="preserve">
+    <value>Armazéms</value>
+  </data>
+  <data name="str41" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="str42" xml:space="preserve">
+    <value>Acerto de Inventarios</value>
+  </data>
+  <data name="str43" xml:space="preserve">
+    <value>Movimento entre  Armazéms</value>
+  </data>
+  <data name="str44" xml:space="preserve">
+    <value>Calculo de Custos Promedio</value>
+  </data>
+  <data name="str45" xml:space="preserve">
+    <value>Fecho de segurança</value>
+  </data>
+  <data name="str46" xml:space="preserve">
+    <value>Soldos Salarios</value>
+  </data>
+  <data name="str47" xml:space="preserve">
+    <value>Impostos a trabalhadores Sunat</value>
+  </data>
+  <data name="str48" xml:space="preserve">
+    <value>Impostos a trabalhadores</value>
+  </data>
+  <data name="str49" xml:space="preserve">
+    <value>Impostos - Pessoal</value>
+  </data>
+  <data name="str50" xml:space="preserve">
+    <value>Categorias  Pessoal</value>
+  </data>
+  <data name="str51" xml:space="preserve">
+    <value>Gestão de Pagamentos</value>
+  </data>
+  <data name="str52" xml:space="preserve">
+    <value>Periodos de Pagamento</value>
+  </data>
+  <data name="str53" xml:space="preserve">
+    <value>Gerando Pagamentos</value>
+  </data>
+  <data name="str54" xml:space="preserve">
+    <value>Validar Pagamentos</value>
+  </data>
+  <data name="str55" xml:space="preserve">
+    <value>Manutenção da Maquinária</value>
+  </data>
+  <data name="str56" xml:space="preserve">
+    <value>Tesouraria</value>
+  </data>
+  <data name="str57" xml:space="preserve">
+    <value>Bancos</value>
+  </data>
+  <data name="str58" xml:space="preserve">
+    <value>Classes de Documento</value>
+  </data>
+  <data name="str59" xml:space="preserve">
+    <value>Plano Contábil</value>
+  </data>
+  <data name="str60" xml:space="preserve">
+    <value>Tipo de Cambio</value>
+  </data>
+  <data name="str61" xml:space="preserve">
+    <value>Comprovantes</value>
+  </data>
+  <data name="str62" xml:space="preserve">
+    <value>Colheitas</value>
+  </data>
+  <data name="str63" xml:space="preserve">
+    <value>Grafico de Colheitas</value>
+  </data>
+  <data name="str64" xml:space="preserve">
+    <value>Resumo de Colheitas</value>
+  </data>
+  <data name="str65" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="str66" xml:space="preserve">
+    <value>Contabilidade</value>
+  </data>
+  <data name="str67" xml:space="preserve">
+    <value>Livros</value>
+  </data>
+  <data name="str68" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="str69" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="str70" xml:space="preserve">
+    <value>Caixa - Bancos</value>
+  </data>
+  <data name="str71" xml:space="preserve">
+    <value>Estoque</value>
+  </data>
+  <data name="str72" xml:space="preserve">
+    <value>Rol Pagamentos a Trabalhadores</value>
+  </data>
+  <data name="str73" xml:space="preserve">
+    <value>Diario</value>
+  </data>
+  <data name="str74" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="str75" xml:space="preserve">
+    <value>Cierres</value>
+  </data>
+  <data name="str76" xml:space="preserve">
+    <value>Assento de abertura</value>
+  </data>
+  <data name="str77" xml:space="preserve">
+    <value>Subdiarios</value>
+  </data>
+  <data name="str78" xml:space="preserve">
+    <value>Impostos</value>
+  </data>
+  <data name="str79" xml:space="preserve">
+    <value>Depresição </value>
+  </data>
+  <data name="str80" xml:space="preserve">
+    <value>Ordens</value>
+  </data>
+  <data name="str81" xml:space="preserve">
+    <value>Ordens de Compras</value>
+  </data>
+  <data name="str82" xml:space="preserve">
+    <value>Ordens de Venda</value>
+  </data>
+  <data name="str83" xml:space="preserve">
+    <value>Ordens Salidas de Armazém</value>
+  </data>
+  <data name="str84" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="str85" xml:space="preserve">
+    <value>Autorízações</value>
+  </data>
+  <data name="str86" xml:space="preserve">
+    <value>Parametro do sistema</value>
+  </data>
+  <data name="str87" xml:space="preserve">
+    <value>Impostos a trabalhadores</value>
+  </data>
+  <data name="str88" xml:space="preserve">
+    <value>Periodicidade Impostos a trabalhadores</value>
+  </data>
+  <data name="str89" xml:space="preserve">
+    <value>Custos</value>
+  </data>
+  <data name="str90" xml:space="preserve">
+    <value>Impto</value>
+  </data>
+  <data name="str91" xml:space="preserve">
+    <value>T.C.</value>
+  </data>
+  <data name="str92" xml:space="preserve">
+    <value>Inverçãos </value>
+  </data>
+  <data name="str93" xml:space="preserve">
+    <value>Anos Deprec.</value>
+  </data>
+  <data name="str94" xml:space="preserve">
+    <value>Deprec. Anual</value>
+  </data>
+  <data name="str95" xml:space="preserve">
+    <value>Controle Orçamentario por Etapas</value>
+  </data>
+  <data name="str9200" xml:space="preserve">
+    <value>Relatório Ingredientes Ativos</value>
+  </data>
+  <data name="str9201" xml:space="preserve">
+    <value>Relatório de Manutenção uma Maquinária</value>
+  </data>
+  <data name="str9202" xml:space="preserve">
+    <value>Resumo de Manutenção</value>
+  </data>
+  <data name="str9203" xml:space="preserve">
+    <value>Relatório Tesouraria</value>
+  </data>
+  <data name="str9204" xml:space="preserve">
+    <value>Relatório Pagamentos</value>
+  </data>
+  <data name="str9205" xml:space="preserve">
+    <value>Saldos de Armazém</value>
+  </data>
+  <data name="str9206" xml:space="preserve">
+    <value>Kardex Contabil</value>
+  </data>
+  <data name="str9207" xml:space="preserve">
+    <value>Kardex Standar</value>
+  </data>
+  <data name="str9208" xml:space="preserve">
+    <value>Quadros </value>
+  </data>
+  <data name="str9209" xml:space="preserve">
+    <value>15. Resumo Culturas / Recursos</value>
+  </data>
+  <data name="str9210" xml:space="preserve">
+    <value>Resumo por Etapas</value>
+  </data>
+  <data name="str9211" xml:space="preserve">
+    <value>3. Relatório numa Área de trabalho por Recursos</value>
+  </data>
+  <data name="str9212" xml:space="preserve">
+    <value>4. Relatório numa Área de trabalho por Atividades</value>
+  </data>
+  <data name="str9213" xml:space="preserve">
+    <value>2. Resumo Culturas / Áreas de trabalho / Etapas</value>
+  </data>
+  <data name="str9214" xml:space="preserve">
+    <value>5. Resumo numa Etapa</value>
+  </data>
+  <data name="str9215" xml:space="preserve">
+    <value>6. Resumo numa Atividade</value>
+  </data>
+  <data name="str9216" xml:space="preserve">
+    <value>7. Resumo num Cultura</value>
+  </data>
+  <data name="str9217" xml:space="preserve">
+    <value>8. Relatório Insumos Um Cultura</value>
+  </data>
+  <data name="str9218" xml:space="preserve">
+    <value>9. Relatório Pessoal Uma Cultura</value>
+  </data>
+  <data name="str9219" xml:space="preserve">
+    <value>11. Quadro Culturas - Recursos</value>
+  </data>
+  <data name="str9220" xml:space="preserve">
+    <value>10. Quadro Recursos - Culturas</value>
+  </data>
+  <data name="str9221" xml:space="preserve">
+    <value>12. Quadro Culturas - Área de trabalho</value>
+  </data>
+  <data name="str9222" xml:space="preserve">
+    <value>13. Quadro Um Recurso / Uma Cultura / Atividades</value>
+  </data>
+  <data name="str9223" xml:space="preserve">
+    <value>14. Horas Irrigação Por Área de trabalho</value>
+  </data>
+  <data name="str9224" xml:space="preserve">
+    <value>1. Resumo Culturas / Área de trabalho / Recursos</value>
+  </data>
+  <data name="str9225" xml:space="preserve">
+    <value>16.  Resumo de Culturas /  Área de trabalho  / Inc. Indiretos</value>
+  </data>
+  <data name="str9226" xml:space="preserve">
+    <value>17. Exportar BD a Excel</value>
+  </data>
+  <data name="str9227" xml:space="preserve">
+    <value>Resumo de Vendas Um Cultura</value>
+  </data>
+  <data name="str9228" xml:space="preserve">
+    <value>Infraestrutura</value>
+  </data>
+  <data name="str9229" xml:space="preserve">
+    <value>Prep.Terreno</value>
+  </data>
+  <data name="str9230" xml:space="preserve">
+    <value>Sembra</value>
+  </data>
+  <data name="str9231" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="str12100" xml:space="preserve">
+    <value>CUSTO DIRETO</value>
+  </data>
+  <data name="str12101" xml:space="preserve">
+    <value>CUSTO INDIRETO</value>
+  </data>
+  <data name="str12102" xml:space="preserve">
+    <value>ATIVIDADE DIRETA</value>
+  </data>
+  <data name="str12103" xml:space="preserve">
+    <value>ATIVIDADE INDIRETA</value>
+  </data>
+  <data name="str10512" xml:space="preserve">
+    <value>Centro de Custos</value>
+  </data>
+  <data name="str10513" xml:space="preserve">
+    <value>Debe - Haver não encaixa.</value>
+  </data>
+  <data name="str10514" xml:space="preserve">
+    <value>Faltam Quantia</value>
+  </data>
+  <data name="str10515" xml:space="preserve">
+    <value>Documento Duplicado</value>
+  </data>
+  <data name="str10516" xml:space="preserve">
+    <value>Nro Enlace</value>
+  </data>
+  <data name="str10517" xml:space="preserve">
+    <value>Data Cont</value>
+  </data>
+  <data name="str10518" xml:space="preserve">
+    <value>Debe(0) - Haber(-1)</value>
+  </data>
+  <data name="str9191" xml:space="preserve">
+    <value>Quant.Tot. Ingte</value>
+  </data>
+  <data name="str9192" xml:space="preserve">
+    <value>Quant.Ingred.</value>
+  </data>
+  <data name="str9193" xml:space="preserve">
+    <value>Quant.Pdto.</value>
+  </data>
+  <data name="str9194" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="str9195" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="str9196" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="str9197" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="str9198" xml:space="preserve">
+    <value>Intervalo</value>
+  </data>
+  <data name="str9199" xml:space="preserve">
+    <value>Desde</value>
+  </data>
+  <data name="str9232" xml:space="preserve">
+    <value>Colheitas</value>
+  </data>
+  <data name="str9233" xml:space="preserve">
+    <value>Post.Colheitas</value>
+  </data>
+  <data name="str9234" xml:space="preserve">
+    <value>Ativ.Indiretas</value>
+  </data>
+  <data name="str9235" xml:space="preserve">
+    <value>Área de trabalho / Produtos</value>
+  </data>
+  <data name="str9236" xml:space="preserve">
+    <value>Área de trabalho / Atividade</value>
+  </data>
+  <data name="str9237" xml:space="preserve">
+    <value>Control Presupuestal Cultivos/Zonas de trabajo/Recursos</value>
+  </data>
+  <data name="str9238" xml:space="preserve">
+    <value>Control Presupuestal Cultivos/Zonas de trabajo/Etapas</value>
+  </data>
+  <data name="str9239" xml:space="preserve">
+    <value>Control Presupuestal Cultivos/Zonas de trabajo/Recursos/Periodos</value>
+  </data>
+  <data name="str9024" xml:space="preserve">
+    <value>Quantia / ha</value>
+  </data>
+  <data name="str11008" xml:space="preserve">
+    <value>Autorizado</value>
+  </data>
+  <data name="str11009" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="str4016" xml:space="preserve">
+    <value>Esta seguro de replicar?</value>
+  </data>
+  <data name="str12104" xml:space="preserve">
+    <value>Voce deve seleccionar um registro</value>
+  </data>
+  <data name="str12105" xml:space="preserve">
+    <value>Inserir dados</value>
+  </data>
+  <data name="str12106" xml:space="preserve">
+    <value>Bem vindo a ABCosts</value>
+  </data>
+  <data name="str12107" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="str12108" xml:space="preserve">
+    <value>¿Aún no tienes cuenta?</value>
+  </data>
+  <data name="str12109" xml:space="preserve">
+    <value>Regístrate</value>
+  </data>
+  <data name="str12110" xml:space="preserve">
+    <value>Ingrese nombre de Usuario</value>
+  </data>
+  <data name="str12111" xml:space="preserve">
+    <value>Ingrese contraseña</value>
+  </data>
+  <data name="str12112" xml:space="preserve">
+    <value>Recordar</value>
+  </data>
+  <data name="str12113" xml:space="preserve">
+    <value>Iniciar Sesión</value>
+  </data>
+  <data name="str12114" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="str12115" xml:space="preserve">
+    <value>Ingrese correo electrónico</value>
+  </data>
+  <data name="str12116" xml:space="preserve">
+    <value>Confirmar Contraseña</value>
+  </data>
+  <data name="str12117" xml:space="preserve">
+    <value>Confirme contraseña</value>
+  </data>
+  <data name="str12118" xml:space="preserve">
+    <value>Nombre Cliente</value>
+  </data>
+  <data name="str12119" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="str12120" xml:space="preserve">
+    <value>Apellidos Cliente</value>
+  </data>
+  <data name="str12121" xml:space="preserve">
+    <value>Nombre Empresa</value>
+  </data>
+  <data name="str12122" xml:space="preserve">
+    <value>Regístra tus datos</value>
+  </data>
+  <data name="str12123" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="str12124" xml:space="preserve">
+    <value>Maquinas</value>
+  </data>
+  <data name="str12125" xml:space="preserve">
+    <value>Debe ingresar Número de Parte</value>
+  </data>
+  <data name="str12126" xml:space="preserve">
+    <value>¡PT - Bienvenido a ABcosts un producto de www.agrisoft.pe!</value>
+  </data>
+  <data name="str12127" xml:space="preserve">
+    <value>PT - El codigo debe ser de {0} caracteres</value>
+  </data>
+  <data name="str991" xml:space="preserve">
+    <value>Registers of Costs, Harvest </value>
+  </data>
+  <data name="str12133" xml:space="preserve">
+    <value>Olvidaste tu contraseña?</value>
+  </data>
+  <data name="str12134" xml:space="preserve">
+    <value>Ingrese Id de Usuario (6 dígitos)</value>
+  </data>
+  <data name="str99991" xml:space="preserve">
+    <value>Ingrese Fechas Validas</value>
+  </data>
+  <data name="str99992" xml:space="preserve">
+    <value>El formato de la fecha debe ser dd/mm/yyyy</value>
+  </data>
+  <data name="str99993" xml:space="preserve">
+    <value>El código de acceso está vencido</value>
+  </data>
+  <data name="str99994" xml:space="preserve">
+    <value>El código de acceso no es válido</value>
+  </data>
+  <data name="str99995" xml:space="preserve">
+    <value>El código de acceso no es válido</value>
+  </data>
+  <data name="str99996" xml:space="preserve">
+    <value>Lo sentimos, este email ya está registrado.</value>
+  </data>
+  <data name="str99997" xml:space="preserve">
+    <value>Hubo un error al registrar la empresa.</value>
+  </data>
+  <data name="str99998" xml:space="preserve">
+    <value>Empresa ya existe:</value>
+  </data>
+  <data name="str99999" xml:space="preserve">
+    <value>Hubo un error al registrar el usuario</value>
+  </data>
+  <data name="str999991" xml:space="preserve">
+    <value>Base de Datos creada correctamente.</value>
+  </data>
+  <data name="str999992" xml:space="preserve">
+    <value>Hubo un problema al cargar el archivo</value>
+  </data>
+  <data name="str999993" xml:space="preserve">
+    <value>Archivo cargado satisfactoriamente</value>
+  </data>
+  <data name="str999994" xml:space="preserve">
+    <value>Este usuario ya está registrado.Pruebe con otro</value>
+  </data>
+  <data name="str999995" xml:space="preserve">
+    <value>Excedió la cantidad de trabajadores permitidos para esta versión</value>
+  </data>
+  <data name="str999996" xml:space="preserve">
+    <value>Existe una zona de trabajo con el mismo codigo</value>
+  </data>
+  <data name="str999997" xml:space="preserve">
+    <value>Esta zona de trabajo ya fue uitilizada como activo en contabilidad. Para eliminar esta zona de trabajo, debe primero borrar tambien el activo y los asientos contables asociados</value>
+  </data>
+  <data name="str999998" xml:space="preserve">
+    <value>Existe un proveedor con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str999999" xml:space="preserve">
+    <value>Existe un producto con la misma descripcion y unidad. Modifique la descripcion o la unidad</value>
+  </data>
+  <data name="str99999950" xml:space="preserve">
+    <value>Reportes de Almacen</value>
+  </data>
+  <data name="str99999951" xml:space="preserve">
+    <value>Reportes de Cosecha</value>
+  </data>
+  <data name="str99999960" xml:space="preserve">
+    <value>Importar archivo txt</value>
+  </data>
+  <data name="str99999961" xml:space="preserve">
+    <value>Jabas</value>
+  </data>
+  <data name="str99999971" xml:space="preserve">
+    <value>Existe una Linea de PRoducto con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str99999972" xml:space="preserve">
+    <value>Existe una maquina con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str99999973" xml:space="preserve">
+    <value>Ingresar Registros</value>
+  </data>
+  <data name="str99999974" xml:space="preserve">
+    <value>Ingreso de Costos</value>
+  </data>
+  <data name="str99999975" xml:space="preserve">
+    <value>Planeamiento</value>
+  </data>
+  <data name="str99999976" xml:space="preserve">
+    <value>Reportes de Costos</value>
+  </data>
+  <data name="str99999977" xml:space="preserve">
+    <value>Reporte Una Zona de Trabajo por Recursos Resumido</value>
+  </data>
+  <data name="str99999978" xml:space="preserve">
+    <value>Reporte Una Zona de Trabajo por Recursos Detallado</value>
+  </data>
+  <data name="str99999979" xml:space="preserve">
+    <value>Resumen Comparativo de Cosechas</value>
+  </data>
+  <data name="str99999981" xml:space="preserve">
+    <value>No ha ingresado items para grabar</value>
+  </data>
+  <data name="str99999982" xml:space="preserve">
+    <value>CodZW</value>
+  </data>
+  <data name="str99999983" xml:space="preserve">
+    <value>CodAct</value>
+  </data>
+  <data name="str99999984" xml:space="preserve">
+    <value>Cod.Rec.</value>
+  </data>
+  <data name="str99999985" xml:space="preserve">
+    <value>Las actividades no pueden empezar con los siguientes caracteres: DIAF,SUBS,DESM,VACA</value>
+  </data>
+  <data name="str99999986" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="str99999987" xml:space="preserve">
+    <value>Existe un cultivo con la misma descripcion. Debera modificarlo.</value>
+  </data>
+  <data name="str99999988" xml:space="preserve">
+    <value>Existe una etapa con el mismo codigo. Debera modificarlo</value>
+  </data>
+  <data name="str99999989" xml:space="preserve">
+    <value>Existe una etapa con la misma descripcion. Modifique la descripcion.</value>
+  </data>
+  <data name="str99999940" xml:space="preserve">
+    <value>Cerrar Sesion</value>
+  </data>
+  <data name="str99999930" xml:space="preserve">
+    <value />
+  </data>
+</root>

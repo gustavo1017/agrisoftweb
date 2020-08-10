@@ -1,0 +1,73 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterAgrisoftWeb.master.vb" Inherits="AgrisoftWeb.UI.MasterAgrisoftWeb" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <%--<link href="../css/Master.css" rel="stylesheet" />--%>
+
+    <style type="text/css">
+        .wrap {
+            position: relative;
+        }
+
+            .wrap span {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: x-small;
+                font-weight: 600;
+            }
+
+        .menuButton {
+            height: 60px;
+            width: 100px;
+            white-space: normal;
+            border-radius: 12px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:DropDownList ID="ddlLanguage" runat="server" AutoPostBack="true" Visible="false">
+            <asp:ListItem Text="Español" Value="es-ES"></asp:ListItem>
+            <asp:ListItem Text="Ingles" Value="en-US"></asp:ListItem>
+            <asp:ListItem Text="Portugues" Value="pt-BR"></asp:ListItem>
+        </asp:DropDownList>
+        <div class="row" style="padding-top: 30px">
+            <div class="col-sm-12" style="text-align:right; padding-right: 40px">
+                <button id="btnHome" type="button" class="btn btn-success menuButton" onclick="document.location.href = 'frmMainMenu.aspx'">Inicio</button>
+                <button id="btnHelp" type="button" class="btn btn-info menuButton" onclick="document.location.href = 'frmHelp.aspx'">Ayuda</button>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="btn btn-danger menuButton" LogoutText="Cerrar Sesión" />
+            </div>
+        </div>
+        <div class="wrap">
+            <span>v2019.06.01.2025</span>
+        </div>
+        <script type="text/javascript" src="../Scripts/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+            //Sys.WebForms.Menu._elementObjectMapper.getMappedObject = function () {
+            //    return false;
+            //};
+            //$(function () {
+            ////    $(".navbar-nav li, .navbar-nav a, .navbar-nav ul").removeAttr('style');
+            //    $(".dropdown-menu").closest("li").removeClass().addClass("dropdown-toggle");
+            ////    $(".dropdown-toggle").find("a").eq(0).attr("data-toggle", "dropdown").attr("aria-haspopup", "true").attr("aria-expanded", "false").append("<span class='caret'></span>");
+            //    $("a.selected").closest("li").addClass("active");
+            ////    $("a.selected").closest(".dropdown-toggle").addClass("active");
+            //});
+
+        </script>
+        <div class="container" style="padding-top: 50px">
+            <asp:ContentPlaceHolder ID="PagesContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

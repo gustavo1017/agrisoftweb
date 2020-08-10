@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\AgrisoftWeb1105\AgrisoftWeb1803\Installer</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_GlobalResources/Resource1.en.resx">
+      <publishTime>05/23/2020 14:43:33</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource1.es.resx">
+      <publishTime>05/23/2020 14:43:38</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource1.fr.resx">
+      <publishTime>05/23/2020 14:43:29</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource1.pt.resx">
+      <publishTime>05/23/2020 14:43:25</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource1.quz.resx">
+      <publishTime>05/23/2020 14:47:19</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource1.resx">
+      <publishTime>05/23/2020 14:43:42</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.en.resx">
+      <publishTime>01/22/2019 20:02:48</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.es.resx">
+      <publishTime>03/21/2020 00:41:31</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.fr.resx">
+      <publishTime>01/22/2019 20:03:38</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.pt.resx">
+      <publishTime>01/22/2019 20:04:03</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.quz.resx">
+      <publishTime>01/22/2019 20:04:18</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Web.sitemap.resx">
+      <publishTime>06/02/2019 00:12:38</publishTime>
+    </File>
+    <File Include="bin/AgrisoftWeb.BL.dll">
+      <publishTime>06/17/2020 15:39:49</publishTime>
+    </File>
+    <File Include="bin/AgrisoftWeb.BL.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AgrisoftWeb.UI.dll">
+      <publishTime>06/17/2020 16:13:43</publishTime>
+    </File>
+    <File Include="bin/AgrisoftWeb.UI.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AgrisoftWeb.UI.xml">
+      <publishTime>06/17/2020 16:13:43</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/18/2018 08:56:38</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ClientDoc.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommLayer.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonControls.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Controllers.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataDefModel.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Prompting.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+      <publishTime>06/12/2018 06:53:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+      <publishTime>06/12/2018 06:53:20</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>06/12/2018 06:53:20</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>06/12/2018 06:53:20</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Web.dll">
+      <publishTime>06/12/2018 06:53:20</publishTime>
+    </File>
+    <File Include="bin/DBScript/AGRIWEB2.sql">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>02/28/2020 19:59:10</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>03/07/2020 23:36:14</publishTime>
+    </File>
+    <File Include="bin/Facebook.dll">
+      <publishTime>04/13/2015 13:48:00</publishTime>
+    </File>
+    <File Include="bin/FastMember.dll">
+      <publishTime>05/24/2019 13:38:00</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>01/06/2011 18:24:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 00:06:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 18:33:56</publishTime>
+    </File>
+    <File Include="bin/pt/AgrisoftWeb.UI.resources.dll">
+      <publishTime>12/02/2018 03:41:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 18:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 18:19:46</publishTime>
+    </File>
+    <File Include="bin/SendGrid.dll">
+      <publishTime>08/15/2019 18:53:16</publishTime>
+    </File>
+    <File Include="bin/SendGrid.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>12/21/2009 11:40:04</publishTime>
+    </File>
+    <File Include="bin/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 04:56:08</publishTime>
+    </File>
+    <File Include="bin/System.IO.Packaging.dll">
+      <publishTime>11/15/2019 08:56:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 02:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 02:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 02:03:46</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>12/02/2018 19:38:14</publishTime>
+    </File>
+    <File Include="ClassDiagram2.cd">
+      <publishTime>12/26/2019 13:54:02</publishTime>
+    </File>
+    <File Include="css/401.css">
+      <publishTime>10/25/2018 13:30:54</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>10/23/2018 13:19:14</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css.map">
+      <publishTime>07/23/2018 16:37:28</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_444444_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_555555_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_777620_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_777777_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_cc0000_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_ffffff_256x240.png">
+      <publishTime>10/27/2018 11:46:20</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>10/13/2018 11:19:28</publishTime>
+    </File>
+    <File Include="css/Master.css">
+      <publishTime>10/23/2018 09:13:26</publishTime>
+    </File>
+    <File Include="css/Menu.css">
+      <publishTime>10/25/2018 13:17:42</publishTime>
+    </File>
+    <File Include="DBScript/AgrisoftDB.sql">
+      <publishTime>11/11/2019 00:27:06</publishTime>
+    </File>
+    <File Include="DBScript/AGRIWEB2.sql">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/12/2018 08:01:55</publishTime>
+    </File>
+    <File Include="img/ctmlogo1.png">
+      <publishTime>03/28/2020 21:08:28</publishTime>
+    </File>
+    <File Include="img/facebuttonES.png">
+      <publishTime>10/29/2018 16:29:05</publishTime>
+    </File>
+    <File Include="img/supportimage.png">
+      <publishTime>10/08/2015 07:09:26</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/14/2020 11:10:27</publishTime>
+    </File>
+    <File Include="Pages/Default.aspx">
+      <publishTime>03/10/2020 23:45:41</publishTime>
+    </File>
+    <File Include="Pages/frmActividades.aspx">
+      <publishTime>03/21/2020 00:36:59</publishTime>
+    </File>
+    <File Include="Pages/frmActividades_ordenar.aspx">
+      <publishTime>11/01/2018 17:20:18</publishTime>
+    </File>
+    <File Include="Pages/frmActividades_View.aspx">
+      <publishTime>03/10/2020 23:45:41</publishTime>
+    </File>
+    <File Include="Pages/frmCostos.aspx">
+      <publishTime>03/16/2020 21:05:32</publishTime>
+    </File>
+    <File Include="Pages/frmCostosCosechas.aspx">
+      <publishTime>03/19/2020 01:59:52</publishTime>
+    </File>
+    <File Include="Pages/frmCostosCosechasView.aspx">
+      <publishTime>03/21/2020 08:30:16</publishTime>
+    </File>
+    <File Include="Pages/frmCostosProductos.aspx">
+      <publishTime>03/16/2020 21:05:33</publishTime>
+    </File>
+    <File Include="Pages/frmCostosProductosView.aspx">
+      <publishTime>03/21/2020 08:30:16</publishTime>
+    </File>
+    <File Include="Pages/frmCostos_View.aspx">
+      <publishTime>03/21/2020 08:22:06</publishTime>
+    </File>
+    <File Include="Pages/frmCultivos.aspx">
+      <publishTime>12/03/2018 08:17:25</publishTime>
+    </File>
+    <File Include="Pages/frmCultivosView.aspx">
+      <publishTime>03/10/2020 23:45:40</publishTime>
+    </File>
+    <File Include="Pages/frmCultivos_ordenar.aspx">
+      <publishTime>11/01/2018 17:21:58</publishTime>
+    </File>
+    <File Include="Pages/frmCultivos_ordenarJS.aspx">
+      <publishTime>03/10/2020 23:45:40</publishTime>
+    </File>
+    <File Include="Pages/frmEtapas.aspx">
+      <publishTime>01/26/2019 13:04:45</publishTime>
+    </File>
+    <File Include="Pages/frmEtapasView.aspx">
+      <publishTime>03/10/2020 23:45:40</publishTime>
+    </File>
+    <File Include="Pages/frmExportarExcelMobile.aspx">
+      <publishTime>04/28/2020 20:39:23</publishTime>
+    </File>
+    <File Include="Pages/frmExport_Parametros.aspx">
+      <publishTime>03/23/2020 21:18:36</publishTime>
+    </File>
+    <File Include="Pages/frmHelp.aspx">
+      <publishTime>03/21/2020 11:02:10</publishTime>
+    </File>
+    <File Include="Pages/frmKardexDeProductoStandar.aspx">
+      <publishTime>03/16/2020 20:13:16</publishTime>
+    </File>
+    <File Include="Pages/frmLineaProducto.aspx">
+      <publishTime>06/02/2019 00:34:52</publishTime>
+    </File>
+    <File Include="Pages/frmLineaProductoView.aspx">
+      <publishTime>03/10/2020 23:45:39</publishTime>
+    </File>
+    <File Include="Pages/frmLoginFacebookOk.aspx">
+      <publishTime>10/31/2018 09:26:06</publishTime>
+    </File>
+    <File Include="Pages/frmLoginServer.aspx">
+      <publishTime>05/23/2020 14:49:40</publishTime>
+    </File>
+    <File Include="Pages/frmMainMenu.aspx">
+      <publishTime>05/19/2020 21:30:21</publishTime>
+    </File>
+    <File Include="Pages/frmMaquinas.aspx">
+      <publishTime>12/02/2018 19:07:16</publishTime>
+    </File>
+    <File Include="Pages/frmMaquinas_view.aspx">
+      <publishTime>03/10/2020 23:45:39</publishTime>
+    </File>
+    <File Include="Pages/frmPersonalB.aspx">
+      <publishTime>11/18/2019 10:45:15</publishTime>
+    </File>
+    <File Include="Pages/frmPersonalb_View.aspx">
+      <publishTime>03/10/2020 23:45:38</publishTime>
+    </File>
+    <File Include="Pages/frmPlaneamiento.aspx">
+      <publishTime>03/21/2020 08:49:22</publishTime>
+    </File>
+    <File Include="Pages/frmPlaneamiento_View.aspx">
+      <publishTime>03/21/2020 08:30:16</publishTime>
+    </File>
+    <File Include="Pages/frmProductos.aspx">
+      <publishTime>05/31/2019 20:20:53</publishTime>
+    </File>
+    <File Include="Pages/frmProductos_View.aspx">
+      <publishTime>03/10/2020 23:45:38</publishTime>
+    </File>
+    <File Include="Pages/frmProveedores.aspx">
+      <publishTime>12/03/2018 08:23:25</publishTime>
+    </File>
+    <File Include="Pages/frmProveedoresView.aspx">
+      <publishTime>03/10/2020 23:45:38</publishTime>
+    </File>
+    <File Include="Pages/frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx">
+      <publishTime>03/12/2020 20:05:37</publishTime>
+    </File>
+    <File Include="Pages/frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx">
+      <publishTime>03/12/2020 19:56:48</publishTime>
+    </File>
+    <File Include="Pages/frmReporteSaldosDeAlmacen.aspx">
+      <publishTime>03/16/2020 20:13:16</publishTime>
+    </File>
+    <File Include="Pages/FrmReporteZTCostosRecursosEtapasActividades.aspx">
+      <publishTime>03/12/2020 19:56:47</publishTime>
+    </File>
+    <File Include="Pages/frmResumenCosechaporcampanas.aspx">
+      <publishTime>03/12/2020 20:05:37</publishTime>
+    </File>
+    <File Include="Pages/frmResumenCostosEnTodosLosCultivosHA.aspx">
+      <publishTime>03/16/2020 20:13:16</publishTime>
+    </File>
+    <File Include="Pages/frmResumenCostosEnTodosLosCultivosKilo.aspx">
+      <publishTime>03/16/2020 20:13:17</publishTime>
+    </File>
+    <File Include="Pages/frmSignUp.aspx">
+      <publishTime>11/30/2019 00:26:12</publishTime>
+    </File>
+    <File Include="Pages/frmZonaTrabajo.aspx">
+      <publishTime>06/01/2019 02:25:43</publishTime>
+    </File>
+    <File Include="Pages/frmZonaTrabajo_View.aspx">
+      <publishTime>03/10/2020 23:45:38</publishTime>
+    </File>
+    <File Include="Pages/ImportarCostos.aspx">
+      <publishTime>03/14/2020 11:22:28</publishTime>
+    </File>
+    <File Include="Pages/ImportarMapeo.aspx">
+      <publishTime>06/02/2020 09:21:22</publishTime>
+    </File>
+    <File Include="Pages/MasterAgrisoftWeb.Master">
+      <publishTime>11/18/2019 11:13:44</publishTime>
+    </File>
+    <File Include="Pages/NewPassword.aspx">
+      <publishTime>11/30/2019 00:47:21</publishTime>
+    </File>
+    <File Include="Pages/ResetPassword.aspx">
+      <publishTime>11/30/2019 00:56:55</publishTime>
+    </File>
+    <File Include="Pages/SessionExpired.aspx">
+      <publishTime>11/16/2019 19:47:17</publishTime>
+    </File>
+    <File Include="Pages/Unauthorized.aspx">
+      <publishTime>10/25/2018 13:35:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/23/2018 13:19:37</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>07/23/2018 16:37:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>10/12/2018 15:33:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.css">
+      <publishTime>10/12/2018 15:55:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.js">
+      <publishTime>10/12/2018 15:55:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/17/2020 15:39:54</publishTime>
+    </File>
+    <File Include="web.sitemap">
+      <publishTime>06/03/2019 18:58:17</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="WebForm3.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

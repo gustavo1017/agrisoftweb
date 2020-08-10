@@ -1,0 +1,25 @@
+﻿.div-table {
+    display: table;
+    width: auto;
+    border-spacing: 5px;
+}
+
+.div-table-row {
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+
+.div-table-col-left {
+    float: left;
+    display: table-column;
+    /*width: 10%;*/
+    /*border: 1px solid black;*/
+}
+
+.div-table-col-right {
+    float: right;
+    width: 88%;
+    display: table-column;
+}
+

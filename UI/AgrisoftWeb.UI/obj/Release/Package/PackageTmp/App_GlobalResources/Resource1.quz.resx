@@ -1,0 +1,2298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="str2998" xml:space="preserve">
+    <value>QUZ - Jor / Ha.</value>
+  </data>
+  <data name="str2999" xml:space="preserve">
+    <value>QUZ - Custo Ind.</value>
+  </data>
+  <data name="str3000" xml:space="preserve">
+    <value>QUZ - Culturas / Area de trabalho</value>
+  </data>
+  <data name="str3001" xml:space="preserve">
+    <value>QUZ - Atividade</value>
+  </data>
+  <data name="str3002" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str3003" xml:space="preserve">
+    <value>QUZ - Data</value>
+  </data>
+  <data name="str3004" xml:space="preserve">
+    <value>QUZ - Até</value>
+  </data>
+  <data name="str3005" xml:space="preserve">
+    <value>QUZ - Recurso</value>
+  </data>
+  <data name="str3006" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str3007" xml:space="preserve">
+    <value>QUZ - Quantidade</value>
+  </data>
+  <data name="str3008" xml:space="preserve">
+    <value>QUZ - Custo Unitario</value>
+  </data>
+  <data name="str3009" xml:space="preserve">
+    <value>QUZ - Quantía Total</value>
+  </data>
+  <data name="str3010" xml:space="preserve">
+    <value>QUZ - Maquinária</value>
+  </data>
+  <data name="str3011" xml:space="preserve">
+    <value>QUZ - Pessoal</value>
+  </data>
+  <data name="str3012" xml:space="preserve">
+    <value>QUZ - Irrigação</value>
+  </data>
+  <data name="str3013" xml:space="preserve">
+    <value>QUZ - Aplicaciones de Insumos</value>
+  </data>
+  <data name="str3014" xml:space="preserve">
+    <value>QUZ - Total</value>
+  </data>
+  <data name="str3015" xml:space="preserve">
+    <value>QUZ - Emissão</value>
+  </data>
+  <data name="str3016" xml:space="preserve">
+    <value>QUZ - Hora de Emision</value>
+  </data>
+  <data name="str3017" xml:space="preserve">
+    <value>QUZ - Folha</value>
+  </data>
+  <data name="str3018" xml:space="preserve">
+    <value>QUZ - Hetares</value>
+  </data>
+  <data name="str3019" xml:space="preserve">
+    <value>QUZ - Custo Por Hetarea</value>
+  </data>
+  <data name="str3020" xml:space="preserve">
+    <value>QUZ - Total por Recurso</value>
+  </data>
+  <data name="str3021" xml:space="preserve">
+    <value>QUZ - Total por Área de trabalho</value>
+  </data>
+  <data name="str3022" xml:space="preserve">
+    <value>QUZ - Total Atividade</value>
+  </data>
+  <data name="str3023" xml:space="preserve">
+    <value>QUZ - Total Produto</value>
+  </data>
+  <data name="str5008" xml:space="preserve">
+    <value>QUZ - O codigo debe ser de 6 carateres</value>
+  </data>
+  <data name="str5009" xml:space="preserve">
+    <value>QUZ - Faltam Descrição </value>
+  </data>
+  <data name="str5010" xml:space="preserve">
+    <value>QUZ - NO SE ENCONTRO REGISTROS DE CULTURA</value>
+  </data>
+  <data name="str200" xml:space="preserve">
+    <value>QUZ - Codigo de Atividade</value>
+  </data>
+  <data name="str201" xml:space="preserve">
+    <value>QUZ - Atividades</value>
+  </data>
+  <data name="str202" xml:space="preserve">
+    <value>QUZ - Codigo</value>
+  </data>
+  <data name="str203" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str204" xml:space="preserve">
+    <value>QUZ - Não se pudo gravar o codigo de atividade</value>
+  </data>
+  <data name="str205" xml:space="preserve">
+    <value>QUZ - Não se pudo gravar la Atividade</value>
+  </data>
+  <data name="str206" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str207" xml:space="preserve">
+    <value>QUZ - O registro não existe . </value>
+  </data>
+  <data name="str300" xml:space="preserve">
+    <value>QUZ - Código de área de trabalho</value>
+  </data>
+  <data name="str301" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str302" xml:space="preserve">
+    <value>QUZ - Codigo</value>
+  </data>
+  <data name="str303" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str304" xml:space="preserve">
+    <value>QUZ - O Codigo Existe</value>
+  </data>
+  <data name="str305" xml:space="preserve">
+    <value>QUZ - O Codigo Existe</value>
+  </data>
+  <data name="str306" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str307" xml:space="preserve">
+    <value>QUZ - O registro não existe</value>
+  </data>
+  <data name="str308" xml:space="preserve">
+    <value>QUZ - O codigo debe ser de 7 carateres</value>
+  </data>
+  <data name="str309" xml:space="preserve">
+    <value>QUZ - Faltam descrição </value>
+  </data>
+  <data name="str310" xml:space="preserve">
+    <value>QUZ - Não SE ENCONTRO REGISTROS DE Área de trabalho</value>
+  </data>
+  <data name="str311" xml:space="preserve">
+    <value>QUZ - Hetares</value>
+  </data>
+  <data name="str312" xml:space="preserve">
+    <value>QUZ - Faltam quantidades de hetares</value>
+  </data>
+  <data name="str313" xml:space="preserve">
+    <value>QUZ - Codigo de Área de trabalho</value>
+  </data>
+  <data name="str314" xml:space="preserve">
+    <value>QUZ - Áreas</value>
+  </data>
+  <data name="str315" xml:space="preserve">
+    <value>QUZ - Cultura</value>
+  </data>
+  <data name="str528" xml:space="preserve">
+    <value>QUZ - Unitário</value>
+  </data>
+  <data name="str529" xml:space="preserve">
+    <value>QUZ - Nulo</value>
+  </data>
+  <data name="str530" xml:space="preserve">
+    <value>QUZ - Não SE ENCONTRO REGISTROS DE CUSTOS</value>
+  </data>
+  <data name="str531" xml:space="preserve">
+    <value>QUZ - Custos de Maquinária</value>
+  </data>
+  <data name="str532" xml:space="preserve">
+    <value>QUZ - Irrigação</value>
+  </data>
+  <data name="str533" xml:space="preserve">
+    <value>QUZ - Pessoal</value>
+  </data>
+  <data name="str534" xml:space="preserve">
+    <value>QUZ - CODIGO MAQUINARIA não EXISTE</value>
+  </data>
+  <data name="str535" xml:space="preserve">
+    <value>QUZ - CODIGO BOMBA não EXISTE</value>
+  </data>
+  <data name="str536" xml:space="preserve">
+    <value>QUZ - Codigo de Bomba de  Irrigação  </value>
+  </data>
+  <data name="str537" xml:space="preserve">
+    <value>QUZ - Descrição  Bomba  Irrigação  </value>
+  </data>
+  <data name="str538" xml:space="preserve">
+    <value>QUZ - Outros Gastos</value>
+  </data>
+  <data name="str539" xml:space="preserve">
+    <value>QUZ - Trabalhador empregado operário</value>
+  </data>
+  <data name="str540" xml:space="preserve">
+    <value>QUZ - Outros</value>
+  </data>
+  <data name="str541" xml:space="preserve">
+    <value>QUZ - Campanha</value>
+  </data>
+  <data name="str542" xml:space="preserve">
+    <value>QUZ - Campanha Incorreta</value>
+  </data>
+  <data name="str543" xml:space="preserve">
+    <value>QUZ - Gravado satisfatoriamente</value>
+  </data>
+  <data name="str608" xml:space="preserve">
+    <value>QUZ - Descrição  Área de trabalho</value>
+  </data>
+  <data name="str609" xml:space="preserve">
+    <value>QUZ - Quilos</value>
+  </data>
+  <data name="str610" xml:space="preserve">
+    <value>QUZ - Registro não pudo ser gravado</value>
+  </data>
+  <data name="str611" xml:space="preserve">
+    <value>QUZ - Registro não pudo ser gravado</value>
+  </data>
+  <data name="str612" xml:space="preserve">
+    <value>QUZ - Registro não pudo ser apagado</value>
+  </data>
+  <data name="str613" xml:space="preserve">
+    <value>QUZ - REGISTRO não EXISTE</value>
+  </data>
+  <data name="str614" xml:space="preserve">
+    <value>QUZ - Guia</value>
+  </data>
+  <data name="str615" xml:space="preserve">
+    <value>QUZ - INCORRET DATE INPUT</value>
+  </data>
+  <data name="str616" xml:space="preserve">
+    <value>QUZ - PRODUCT CODE DOESNT EXIST</value>
+  </data>
+  <data name="str617" xml:space="preserve">
+    <value>QUZ - CENTER COST CODE DOESNT EXIST</value>
+  </data>
+  <data name="str618" xml:space="preserve">
+    <value>QUZ - KILOS MUST BE DIFERENT TO CERO</value>
+  </data>
+  <data name="str619" xml:space="preserve">
+    <value>QUZ - Não SE ENCONTRO REGISTROS DE COLHEITAS</value>
+  </data>
+  <data name="str700" xml:space="preserve">
+    <value>QUZ - Nivel de detalle</value>
+  </data>
+  <data name="str701" xml:space="preserve">
+    <value>QUZ - Microsoft Excel Exporting</value>
+  </data>
+  <data name="str702" xml:space="preserve">
+    <value>QUZ - Unidade</value>
+  </data>
+  <data name="str703" xml:space="preserve">
+    <value>QUZ - Nome de arquivo</value>
+  </data>
+  <data name="str704" xml:space="preserve">
+    <value>QUZ - Detalhes</value>
+  </data>
+  <data name="str705" xml:space="preserve">
+    <value>QUZ - Resume</value>
+  </data>
+  <data name="str706" xml:space="preserve">
+    <value>QUZ - Enviar</value>
+  </data>
+  <data name="str707" xml:space="preserve">
+    <value>QUZ - Fechar</value>
+  </data>
+  <data name="str708" xml:space="preserve">
+    <value>QUZ - NOME DE ARQUIVO INCORRETO</value>
+  </data>
+  <data name="str709" xml:space="preserve">
+    <value>QUZ - Seleccione classe de envio. </value>
+  </data>
+  <data name="str710" xml:space="preserve">
+    <value>QUZ - Erro: não  está pronta</value>
+  </data>
+  <data name="str711" xml:space="preserve">
+    <value>QUZ - Processo terminado exitosamente</value>
+  </data>
+  <data name="str712" xml:space="preserve">
+    <value>QUZ - O processo não termino satisfatoriamente</value>
+  </data>
+  <data name="str713" xml:space="preserve">
+    <value>QUZ - Unidade</value>
+  </data>
+  <data name="str801" xml:space="preserve">
+    <value>QUZ - Relatórios</value>
+  </data>
+  <data name="str802" xml:space="preserve">
+    <value>QUZ - Custos dos operários num centro de custos</value>
+  </data>
+  <data name="str803" xml:space="preserve">
+    <value>QUZ - Aplications Cost in a Center Cost</value>
+  </data>
+  <data name="str804" xml:space="preserve">
+    <value>QUZ - Watering Cost in a Center Cost</value>
+  </data>
+  <data name="str805" xml:space="preserve">
+    <value>QUZ - Machinery Costs in a Center Cost</value>
+  </data>
+  <data name="str806" xml:space="preserve">
+    <value>QUZ - Custos totais  por recursos </value>
+  </data>
+  <data name="str807" xml:space="preserve">
+    <value>QUZ - Custo Total Custo by Ativities</value>
+  </data>
+  <data name="str808" xml:space="preserve">
+    <value>QUZ - Resum of Costs by Center Costs</value>
+  </data>
+  <data name="str809" xml:space="preserve">
+    <value>QUZ - Sair</value>
+  </data>
+  <data name="str901" xml:space="preserve">
+    <value>QUZ - Relatórios</value>
+  </data>
+  <data name="str902" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str903" xml:space="preserve">
+    <value>QUZ - De</value>
+  </data>
+  <data name="str904" xml:space="preserve">
+    <value>QUZ - A</value>
+  </data>
+  <data name="str905" xml:space="preserve">
+    <value>QUZ - Descrição  Área de trabalho</value>
+  </data>
+  <data name="str906" xml:space="preserve">
+    <value>QUZ - Procurar </value>
+  </data>
+  <data name="str907" xml:space="preserve">
+    <value>QUZ - Imprimir</value>
+  </data>
+  <data name="str908" xml:space="preserve">
+    <value>QUZ - Microsoft Excel Exporting</value>
+  </data>
+  <data name="str909" xml:space="preserve">
+    <value>QUZ - Quantia Total</value>
+  </data>
+  <data name="str2000" xml:space="preserve">
+    <value>QUZ - de</value>
+  </data>
+  <data name="str2001" xml:space="preserve">
+    <value>QUZ - Produtos</value>
+  </data>
+  <data name="str2002" xml:space="preserve">
+    <value>QUZ - Atividades</value>
+  </data>
+  <data name="str2003" xml:space="preserve">
+    <value>QUZ - Maquinária</value>
+  </data>
+  <data name="str2004" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str2005" xml:space="preserve">
+    <value>QUZ - Aplicaciones de Produtos</value>
+  </data>
+  <data name="str2006" xml:space="preserve">
+    <value>QUZ - Custos de Maquinária</value>
+  </data>
+  <data name="str2007" xml:space="preserve">
+    <value>QUZ - Custos de Irrigação</value>
+  </data>
+  <data name="str2008" xml:space="preserve">
+    <value>QUZ - Custos de Mão</value>
+  </data>
+  <data name="str2009" xml:space="preserve">
+    <value>QUZ - Saída</value>
+  </data>
+  <data name="str2010" xml:space="preserve">
+    <value>QUZ - Relatórios</value>
+  </data>
+  <data name="str2011" xml:space="preserve">
+    <value>QUZ - Recursos</value>
+  </data>
+  <data name="str2012" xml:space="preserve">
+    <value>QUZ - Produto</value>
+  </data>
+  <data name="str2013" xml:space="preserve">
+    <value>QUZ - Bombas de Irrigação</value>
+  </data>
+  <data name="str3024" xml:space="preserve">
+    <value>QUZ - Acabou</value>
+  </data>
+  <data name="str3025" xml:space="preserve">
+    <value>QUZ - A  impressora está  inoperante.</value>
+  </data>
+  <data name="str3026" xml:space="preserve">
+    <value>QUZ - Imprimindo ?</value>
+  </data>
+  <data name="str3027" xml:space="preserve">
+    <value>QUZ - Datas</value>
+  </data>
+  <data name="str3028" xml:space="preserve">
+    <value>QUZ - Dados</value>
+  </data>
+  <data name="str3029" xml:space="preserve">
+    <value>QUZ - Dados exportáveis </value>
+  </data>
+  <data name="str3030" xml:space="preserve">
+    <value>QUZ - Relação</value>
+  </data>
+  <data name="str3031" xml:space="preserve">
+    <value>QUZ - Prévia </value>
+  </data>
+  <data name="str3032" xml:space="preserve">
+    <value>QUZ - Resumo de Colheitas</value>
+  </data>
+  <data name="str3033" xml:space="preserve">
+    <value>QUZ - Enviando</value>
+  </data>
+  <data name="str3034" xml:space="preserve">
+    <value>QUZ - Quilos</value>
+  </data>
+  <data name="str3035" xml:space="preserve">
+    <value>QUZ - Quilos / Ha</value>
+  </data>
+  <data name="str3036" xml:space="preserve">
+    <value>QUZ - Mostrar </value>
+  </data>
+  <data name="str3037" xml:space="preserve">
+    <value>QUZ - Graficar </value>
+  </data>
+  <data name="str3038" xml:space="preserve">
+    <value>QUZ - Dias</value>
+  </data>
+  <data name="str3039" xml:space="preserve">
+    <value>QUZ - Meses</value>
+  </data>
+  <data name="str3040" xml:space="preserve">
+    <value>QUZ - Anos</value>
+  </data>
+  <data name="str3041" xml:space="preserve">
+    <value>QUZ - Semanas</value>
+  </data>
+  <data name="str3042" xml:space="preserve">
+    <value>QUZ - Colheitas por dias</value>
+  </data>
+  <data name="str3043" xml:space="preserve">
+    <value>QUZ - Colheitas por meses</value>
+  </data>
+  <data name="str3044" xml:space="preserve">
+    <value>QUZ - Anos </value>
+  </data>
+  <data name="str3045" xml:space="preserve">
+    <value>QUZ - Colheitas por semanas</value>
+  </data>
+  <data name="str3046" xml:space="preserve">
+    <value>QUZ - Quilos</value>
+  </data>
+  <data name="str3047" xml:space="preserve">
+    <value>QUZ - Datas</value>
+  </data>
+  <data name="str3048" xml:space="preserve">
+    <value>QUZ - Grafico</value>
+  </data>
+  <data name="str3049" xml:space="preserve">
+    <value>QUZ - Data</value>
+  </data>
+  <data name="str3050" xml:space="preserve">
+    <value>QUZ - Grafico de Colheitas</value>
+  </data>
+  <data name="str3051" xml:space="preserve">
+    <value>QUZ - Não existe informação</value>
+  </data>
+  <data name="str3052" xml:space="preserve">
+    <value>QUZ - Error gerando grafico</value>
+  </data>
+  <data name="str3053" xml:space="preserve">
+    <value>QUZ - Estado</value>
+  </data>
+  <data name="str3054" xml:space="preserve">
+    <value>QUZ - Cancelar Processo </value>
+  </data>
+  <data name="str3055" xml:space="preserve">
+    <value>QUZ - Escrever  em cima?</value>
+  </data>
+  <data name="str3056" xml:space="preserve">
+    <value>QUZ - Processo Satisfatorio</value>
+  </data>
+  <data name="str3057" xml:space="preserve">
+    <value>QUZ - Escolher</value>
+  </data>
+  <data name="str3058" xml:space="preserve">
+    <value>QUZ - Aceitar</value>
+  </data>
+  <data name="str3059" xml:space="preserve">
+    <value>QUZ - Diretório</value>
+  </data>
+  <data name="str3060" xml:space="preserve">
+    <value>QUZ - Roterio</value>
+  </data>
+  <data name="str3061" xml:space="preserve">
+    <value>QUZ - Sem  formato  ( modo  rápido )</value>
+  </data>
+  <data name="str3062" xml:space="preserve">
+    <value>QUZ - ERROR: File Name</value>
+  </data>
+  <data name="str3063" xml:space="preserve">
+    <value>QUZ - Interrompido</value>
+  </data>
+  <data name="str4001" xml:space="preserve">
+    <value>QUZ - Pessoal</value>
+  </data>
+  <data name="str4002" xml:space="preserve">
+    <value>QUZ - Codigo Pessoal</value>
+  </data>
+  <data name="str4003" xml:space="preserve">
+    <value>QUZ - Nome Pessoal</value>
+  </data>
+  <data name="str4004" xml:space="preserve">
+    <value>QUZ - O codigo introducido es incorreto</value>
+  </data>
+  <data name="str4005" xml:space="preserve">
+    <value>QUZ - O codigo introducido já existe</value>
+  </data>
+  <data name="str4006" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str4007" xml:space="preserve">
+    <value>QUZ - O registro não existe</value>
+  </data>
+  <data name="str4008" xml:space="preserve">
+    <value>QUZ - oito  (8)</value>
+  </data>
+  <data name="str4009" xml:space="preserve">
+    <value>QUZ - Faltam Nome de Pessoal</value>
+  </data>
+  <data name="str4010" xml:space="preserve">
+    <value>QUZ - Não se encontro registro</value>
+  </data>
+  <data name="str4011" xml:space="preserve">
+    <value>QUZ - O Pessoal introducido já tem</value>
+  </data>
+  <data name="str4012" xml:space="preserve">
+    <value>QUZ - horas trabalhadas este dia, continuar?</value>
+  </data>
+  <data name="str4013" xml:space="preserve">
+    <value>QUZ - La afetacion esta sendo utilizada no Pagamentos a Trabalhadores!</value>
+  </data>
+  <data name="str4014" xml:space="preserve">
+    <value>QUZ - Sobreescrever?</value>
+  </data>
+  <data name="str4015" xml:space="preserve">
+    <value>QUZ - Stock insuficiente, deseja atualizar?</value>
+  </data>
+  <data name="str1001" xml:space="preserve">
+    <value>QUZ - Não se pode ligar à base de datos </value>
+  </data>
+  <data name="str1002" xml:space="preserve">
+    <value>QUZ - Registros Visualizados</value>
+  </data>
+  <data name="str1003" xml:space="preserve">
+    <value>QUZ - Achado </value>
+  </data>
+  <data name="str1004" xml:space="preserve">
+    <value>QUZ - Procurar Por</value>
+  </data>
+  <data name="str1005" xml:space="preserve">
+    <value>QUZ - Apagar </value>
+  </data>
+  <data name="str1006" xml:space="preserve">
+    <value>QUZ - Não existen Registros</value>
+  </data>
+  <data name="str208" xml:space="preserve">
+    <value>QUZ - O codigo de atividade deve ser de seis (6) carateres </value>
+  </data>
+  <data name="str209" xml:space="preserve">
+    <value>QUZ - Faltam descriçao</value>
+  </data>
+  <data name="str210" xml:space="preserve">
+    <value>QUZ - Não SE ENCONTRO REGISTROS DE ATIVIDADES</value>
+  </data>
+  <data name="str211" xml:space="preserve">
+    <value>QUZ - Etapa</value>
+  </data>
+  <data name="str212" xml:space="preserve">
+    <value>QUZ - Localização  de C.C.</value>
+  </data>
+  <data name="str213" xml:space="preserve">
+    <value>QUZ - La provisão foi cancelada / fusão / trocada por letras por Tesouraria .Primeiro deve apagar la operação por Tesouraria.</value>
+  </data>
+  <data name="str214" xml:space="preserve">
+    <value>QUZ - Ingrediente duplicado</value>
+  </data>
+  <data name="str215" xml:space="preserve">
+    <value>QUZ - La venda foi cancelada / fusão / trocada por letras por Tesouraria .Primeiro deve apagar la operação por Tesouraria.</value>
+  </data>
+  <data name="str216" xml:space="preserve">
+    <value>QUZ - Data existe!</value>
+  </data>
+  <data name="str5001" xml:space="preserve">
+    <value>QUZ - Culturas</value>
+  </data>
+  <data name="str5002" xml:space="preserve">
+    <value>QUZ - Codigo</value>
+  </data>
+  <data name="str5003" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str5004" xml:space="preserve">
+    <value>QUZ - O registro não pudo ser gravado</value>
+  </data>
+  <data name="str5005" xml:space="preserve">
+    <value>QUZ - O registro não pudo ser gravado</value>
+  </data>
+  <data name="str5006" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str5007" xml:space="preserve">
+    <value>QUZ - Registro não existe</value>
+  </data>
+  <data name="str512" xml:space="preserve">
+    <value>QUZ - Descrição  Área de trabalho</value>
+  </data>
+  <data name="str513" xml:space="preserve">
+    <value>QUZ - Horas</value>
+  </data>
+  <data name="str514" xml:space="preserve">
+    <value>QUZ - Custo Estândar</value>
+  </data>
+  <data name="str515" xml:space="preserve">
+    <value>QUZ - Quantia Total</value>
+  </data>
+  <data name="str516" xml:space="preserve">
+    <value>QUZ - Classe de custo</value>
+  </data>
+  <data name="str517" xml:space="preserve">
+    <value>QUZ - Observações</value>
+  </data>
+  <data name="str518" xml:space="preserve">
+    <value>QUZ - O registro não se pudo gravar</value>
+  </data>
+  <data name="str519" xml:space="preserve">
+    <value>QUZ - O registro não se pudo gravar</value>
+  </data>
+  <data name="str520" xml:space="preserve">
+    <value>QUZ - O registro não se pudo borrar</value>
+  </data>
+  <data name="str521" xml:space="preserve">
+    <value>QUZ - O registro não existe</value>
+  </data>
+  <data name="str522" xml:space="preserve">
+    <value>QUZ - Númer. diverso de Zero </value>
+  </data>
+  <data name="str523" xml:space="preserve">
+    <value>QUZ - Data incorreta</value>
+  </data>
+  <data name="str524" xml:space="preserve">
+    <value>QUZ - Não existe o codigo do produto</value>
+  </data>
+  <data name="str525" xml:space="preserve">
+    <value>QUZ - Não existe o codigo de Atividade</value>
+  </data>
+  <data name="str526" xml:space="preserve">
+    <value>QUZ - já</value>
+  </data>
+  <data name="str527" xml:space="preserve">
+    <value>QUZ - Quantidade Incorreta</value>
+  </data>
+  <data name="str544" xml:space="preserve">
+    <value>QUZ - Produto</value>
+  </data>
+  <data name="str545" xml:space="preserve">
+    <value>QUZ - Maquinária</value>
+  </data>
+  <data name="str546" xml:space="preserve">
+    <value>QUZ - Atividade</value>
+  </data>
+  <data name="str547" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str548" xml:space="preserve">
+    <value>QUZ - Faltam tipo de câmbio ($-S/.) </value>
+  </data>
+  <data name="str549" xml:space="preserve">
+    <value>QUZ - Ingredientes</value>
+  </data>
+  <data name="str550" xml:space="preserve">
+    <value>QUZ - Ingrediente</value>
+  </data>
+  <data name="str551" xml:space="preserve">
+    <value>QUZ - Modificado</value>
+  </data>
+  <data name="str552" xml:space="preserve">
+    <value>QUZ - Erro  Data : A data introduzida é  maior do que o dia atual.</value>
+  </data>
+  <data name="str553" xml:space="preserve">
+    <value>QUZ - O registro selecionado deve ser apagado pelo módulo de tesouraria.</value>
+  </data>
+  <data name="str554" xml:space="preserve">
+    <value>QUZ - Atividade sujeita a impostos. Não considerado para calculo de Pagamentos a Trabalhadores!</value>
+  </data>
+  <data name="str555" xml:space="preserve">
+    <value>QUZ - A seguranca foi manipulada. Não intente outra vez, o próximo intento, sua computadora perderá informação!</value>
+  </data>
+  <data name="str556" xml:space="preserve">
+    <value>QUZ - Sua Versão Demo espirou, contatar-se vía mail agrisoft2000@hotmail.com.</value>
+  </data>
+  <data name="str96" xml:space="preserve">
+    <value>QUZ - Orçamento</value>
+  </data>
+  <data name="str97" xml:space="preserve">
+    <value>QUZ - Regularização do Recursos y Parametros</value>
+  </data>
+  <data name="str98" xml:space="preserve">
+    <value>QUZ - Regularização Batch Custos Estandar</value>
+  </data>
+  <data name="str101" xml:space="preserve">
+    <value>QUZ - Produtos</value>
+  </data>
+  <data name="str102" xml:space="preserve">
+    <value>QUZ - Codigo</value>
+  </data>
+  <data name="str103" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str104" xml:space="preserve">
+    <value>QUZ - Error: Não se pudo gravar o produto</value>
+  </data>
+  <data name="str105" xml:space="preserve">
+    <value>QUZ - Error: Não se pudo gravar o produto</value>
+  </data>
+  <data name="str106" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str107" xml:space="preserve">
+    <value>QUZ - O registro não existe</value>
+  </data>
+  <data name="str108" xml:space="preserve">
+    <value>QUZ - O codigo debe ser de 6 carateres</value>
+  </data>
+  <data name="str109" xml:space="preserve">
+    <value>QUZ - Faltam Descrição </value>
+  </data>
+  <data name="str110" xml:space="preserve">
+    <value>QUZ - Não foi possivel apagar. Esta sendo usado na tábua custos</value>
+  </data>
+  <data name="str111" xml:space="preserve">
+    <value>QUZ - Classe</value>
+  </data>
+  <data name="str601" xml:space="preserve">
+    <value>QUZ - Colheitas</value>
+  </data>
+  <data name="str602" xml:space="preserve">
+    <value>QUZ - Código de colheitas</value>
+  </data>
+  <data name="str603" xml:space="preserve">
+    <value>QUZ - Documento</value>
+  </data>
+  <data name="str604" xml:space="preserve">
+    <value>QUZ - Data</value>
+  </data>
+  <data name="str605" xml:space="preserve">
+    <value>QUZ - Codigo Produto</value>
+  </data>
+  <data name="str606" xml:space="preserve">
+    <value>QUZ - Descrição Produto</value>
+  </data>
+  <data name="str607" xml:space="preserve">
+    <value>QUZ - Codigo Área de trabalho</value>
+  </data>
+  <data name="str401" xml:space="preserve">
+    <value>QUZ - Maquinária</value>
+  </data>
+  <data name="str402" xml:space="preserve">
+    <value>QUZ - Codigo</value>
+  </data>
+  <data name="str403" xml:space="preserve">
+    <value>QUZ - Descrição </value>
+  </data>
+  <data name="str404" xml:space="preserve">
+    <value>QUZ - Maquinária</value>
+  </data>
+  <data name="str405" xml:space="preserve">
+    <value>QUZ - Bomba de Irrigação </value>
+  </data>
+  <data name="str406" xml:space="preserve">
+    <value>QUZ - O codigo não existe</value>
+  </data>
+  <data name="str407" xml:space="preserve">
+    <value>QUZ - O codigo não existe</value>
+  </data>
+  <data name="str408" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str409" xml:space="preserve">
+    <value>QUZ - O registro não existe</value>
+  </data>
+  <data name="str410" xml:space="preserve">
+    <value>QUZ - O codigo de Maquinária es de 6 carateres</value>
+  </data>
+  <data name="str411" xml:space="preserve">
+    <value>QUZ - Faltam Descrição </value>
+  </data>
+  <data name="str413" xml:space="preserve">
+    <value>QUZ - Manutenção Maquinária</value>
+  </data>
+  <data name="str414" xml:space="preserve">
+    <value>QUZ - Codigo de Maquinária</value>
+  </data>
+  <data name="str415" xml:space="preserve">
+    <value>QUZ - Quantidade total</value>
+  </data>
+  <data name="str6001" xml:space="preserve">
+    <value>QUZ - Etapas</value>
+  </data>
+  <data name="str6002" xml:space="preserve">
+    <value>QUZ - Codigo de etapa</value>
+  </data>
+  <data name="str6003" xml:space="preserve">
+    <value>QUZ - Descrição de Etapa</value>
+  </data>
+  <data name="str6004" xml:space="preserve">
+    <value>QUZ - Ubicación de C.C.</value>
+  </data>
+  <data name="str6005" xml:space="preserve">
+    <value>QUZ - ERROR : NO SE PUDO REGISTRAR ETAPA</value>
+  </data>
+  <data name="str6006" xml:space="preserve">
+    <value>QUZ - ERROR : NO SE PUDO GRAVAR ETAPA</value>
+  </data>
+  <data name="str6007" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str6008" xml:space="preserve">
+    <value>QUZ - ERROR : REGISTRO NO EXISTE</value>
+  </data>
+  <data name="str6009" xml:space="preserve">
+    <value>QUZ - três  (3)</value>
+  </data>
+  <data name="str6010" xml:space="preserve">
+    <value>QUZ - VALIDAR : DESCRIPCION DE ETAPA NO DEBE SER NULO </value>
+  </data>
+  <data name="str6011" xml:space="preserve">
+    <value>QUZ - VALIDAR : UBICACION CENTRO DE CUSTOS DEBE SER NUMERICO</value>
+  </data>
+  <data name="str6012" xml:space="preserve">
+    <value>QUZ - ERROR : NO SE ENCONTRO REGISTRO DE ETAPAS</value>
+  </data>
+  <data name="str6013" xml:space="preserve">
+    <value>QUZ - Campanha debe ser numérico</value>
+  </data>
+  <data name="str6014" xml:space="preserve">
+    <value>QUZ - Não existe Ingressada </value>
+  </data>
+  <data name="str6015" xml:space="preserve">
+    <value>QUZ - Não existe o cultura ingresado</value>
+  </data>
+  <data name="str6016" xml:space="preserve">
+    <value>QUZ - Não existe la Atividade ingresada</value>
+  </data>
+  <data name="str6017" xml:space="preserve">
+    <value>QUZ - Não existe la etapa ingresada</value>
+  </data>
+  <data name="str6018" xml:space="preserve">
+    <value>QUZ - Introducir número de Campanha</value>
+  </data>
+  <data name="str6019" xml:space="preserve">
+    <value>QUZ - O codigo escolhilo é propiedade do sistema</value>
+  </data>
+  <data name="str6020" xml:space="preserve">
+    <value>QUZ - Categoria</value>
+  </data>
+  <data name="str1" xml:space="preserve">
+    <value>QUZ - Novo</value>
+  </data>
+  <data name="str2" xml:space="preserve">
+    <value>QUZ - Modificar</value>
+  </data>
+  <data name="str3" xml:space="preserve">
+    <value>QUZ - Apagar</value>
+  </data>
+  <data name="str4" xml:space="preserve">
+    <value>QUZ - Gravar</value>
+  </data>
+  <data name="str5" xml:space="preserve">
+    <value>QUZ - Sair</value>
+  </data>
+  <data name="str6" xml:space="preserve">
+    <value>QUZ - Sair</value>
+  </data>
+  <data name="str7" xml:space="preserve">
+    <value>QUZ - Procurar</value>
+  </data>
+  <data name="str8" xml:space="preserve">
+    <value>QUZ - Relacão de tudo.</value>
+  </data>
+  <data name="str9" xml:space="preserve">
+    <value>QUZ - Distribução</value>
+  </data>
+  <data name="str10" xml:space="preserve">
+    <value>QUZ - O codigo escolhilo é  propiedade  do  sistema</value>
+  </data>
+  <data name="str11" xml:space="preserve">
+    <value>QUZ - Relatório Generado</value>
+  </data>
+  <data name="str12" xml:space="preserve">
+    <value>QUZ - Exportar</value>
+  </data>
+  <data name="str13" xml:space="preserve">
+    <value>QUZ - Parametros</value>
+  </data>
+  <data name="str14" xml:space="preserve">
+    <value>QUZ - Recursos</value>
+  </data>
+  <data name="str15" xml:space="preserve">
+    <value>QUZ - Centros de Custos y Processos</value>
+  </data>
+  <data name="str501" xml:space="preserve">
+    <value>QUZ - Aplicações de produtos</value>
+  </data>
+  <data name="str502" xml:space="preserve">
+    <value>QUZ - Codigo de Custo</value>
+  </data>
+  <data name="str503" xml:space="preserve">
+    <value>QUZ - Documento</value>
+  </data>
+  <data name="str504" xml:space="preserve">
+    <value>QUZ - Data</value>
+  </data>
+  <data name="str505" xml:space="preserve">
+    <value>QUZ - Código Produto</value>
+  </data>
+  <data name="str506" xml:space="preserve">
+    <value>QUZ - Descrição Produto</value>
+  </data>
+  <data name="str507" xml:space="preserve">
+    <value>QUZ - Codigo Maquinária</value>
+  </data>
+  <data name="str508" xml:space="preserve">
+    <value>QUZ - Descrição  Maquinária</value>
+  </data>
+  <data name="str509" xml:space="preserve">
+    <value>QUZ - Codigo Atividade</value>
+  </data>
+  <data name="str510" xml:space="preserve">
+    <value>QUZ - Descrição  Atividade</value>
+  </data>
+  <data name="str511" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str8000" xml:space="preserve">
+    <value>QUZ - Compras</value>
+  </data>
+  <data name="str8001" xml:space="preserve">
+    <value>QUZ - Número de Guia não valido</value>
+  </data>
+  <data name="str8002" xml:space="preserve">
+    <value>QUZ - Preço</value>
+  </data>
+  <data name="str7001" xml:space="preserve">
+    <value>QUZ - Provedor</value>
+  </data>
+  <data name="str7002" xml:space="preserve">
+    <value>QUZ - Codigo </value>
+  </data>
+  <data name="str7003" xml:space="preserve">
+    <value>QUZ - Nome </value>
+  </data>
+  <data name="str7004" xml:space="preserve">
+    <value>QUZ - Guia</value>
+  </data>
+  <data name="str7005" xml:space="preserve">
+    <value>QUZ - Nro. Documento</value>
+  </data>
+  <data name="str7006" xml:space="preserve">
+    <value>QUZ - Quantia Total</value>
+  </data>
+  <data name="str7007" xml:space="preserve">
+    <value>QUZ - Linhas</value>
+  </data>
+  <data name="str9000" xml:space="preserve">
+    <value>QUZ - Estoque</value>
+  </data>
+  <data name="str9001" xml:space="preserve">
+    <value>QUZ - Pressione procurar .</value>
+  </data>
+  <data name="str9002" xml:space="preserve">
+    <value>QUZ - Procesar</value>
+  </data>
+  <data name="str9003" xml:space="preserve">
+    <value>QUZ - Fecho  contábil</value>
+  </data>
+  <data name="str9004" xml:space="preserve">
+    <value>QUZ - Entradas (Unid)</value>
+  </data>
+  <data name="str9005" xml:space="preserve">
+    <value>QUZ - Saídas </value>
+  </data>
+  <data name="str9006" xml:space="preserve">
+    <value>QUZ - Saldo</value>
+  </data>
+  <data name="str9007" xml:space="preserve">
+    <value>QUZ - Custo Unitario</value>
+  </data>
+  <data name="str9008" xml:space="preserve">
+    <value>QUZ - Quantia Total</value>
+  </data>
+  <data name="str9009" xml:space="preserve">
+    <value>QUZ - Processo finalizado</value>
+  </data>
+  <data name="str9010" xml:space="preserve">
+    <value>QUZ - Acerto de Inventarios</value>
+  </data>
+  <data name="str9011" xml:space="preserve">
+    <value>QUZ - Acertos</value>
+  </data>
+  <data name="str9012" xml:space="preserve">
+    <value>QUZ - Entradas Val.</value>
+  </data>
+  <data name="str9013" xml:space="preserve">
+    <value>QUZ - Salidas Val.</value>
+  </data>
+  <data name="str9014" xml:space="preserve">
+    <value>QUZ - Saldo Val.</value>
+  </data>
+  <data name="str9015" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua custos</value>
+  </data>
+  <data name="str9016" xml:space="preserve">
+    <value>QUZ - ACERTO DE INVENTARIOS</value>
+  </data>
+  <data name="str9017" xml:space="preserve">
+    <value>QUZ - Provedor</value>
+  </data>
+  <data name="str9018" xml:space="preserve">
+    <value>QUZ - Faltam Número de Documento</value>
+  </data>
+  <data name="str9019" xml:space="preserve">
+    <value>QUZ - Faltam número de Campanha</value>
+  </data>
+  <data name="str9020" xml:space="preserve">
+    <value>QUZ - Faltam Tipo de Cambio</value>
+  </data>
+  <data name="str9021" xml:space="preserve">
+    <value>QUZ - Atualizar Acertos?</value>
+  </data>
+  <data name="str9022" xml:space="preserve">
+    <value>QUZ - .</value>
+  </data>
+  <data name="str9023" xml:space="preserve">
+    <value>QUZ - Cargar Acertos</value>
+  </data>
+  <data name="str10000" xml:space="preserve">
+    <value>QUZ - Manutenção de Maquinária</value>
+  </data>
+  <data name="str10001" xml:space="preserve">
+    <value>QUZ - Tipo de Cambio</value>
+  </data>
+  <data name="str10002" xml:space="preserve">
+    <value>QUZ - Faltam Tipo de Cambio</value>
+  </data>
+  <data name="str10003" xml:space="preserve">
+    <value>QUZ - Moeda</value>
+  </data>
+  <data name="str10004" xml:space="preserve">
+    <value>QUZ - Nacional</value>
+  </data>
+  <data name="str10005" xml:space="preserve">
+    <value>QUZ - Estrangeira</value>
+  </data>
+  <data name="str10006" xml:space="preserve">
+    <value>QUZ - Tipo de Cambio</value>
+  </data>
+  <data name="str10007" xml:space="preserve">
+    <value>QUZ - ERROR INTERNO</value>
+  </data>
+  <data name="str10008" xml:space="preserve">
+    <value>QUZ - Freqüência</value>
+  </data>
+  <data name="str10009" xml:space="preserve">
+    <value>QUZ - Periodicidade</value>
+  </data>
+  <data name="str10010" xml:space="preserve">
+    <value>QUZ - Classe de Valor</value>
+  </data>
+  <data name="str10011" xml:space="preserve">
+    <value>QUZ - Valor</value>
+  </data>
+  <data name="str10012" xml:space="preserve">
+    <value>QUZ - Regularizar</value>
+  </data>
+  <data name="str10100" xml:space="preserve">
+    <value>QUZ - Pagamentos a Trabalhadores</value>
+  </data>
+  <data name="str10101" xml:space="preserve">
+    <value>QUZ - Hrs. Normais</value>
+  </data>
+  <data name="str10102" xml:space="preserve">
+    <value>QUZ - Hrs. Ex. Simples</value>
+  </data>
+  <data name="str10103" xml:space="preserve">
+    <value>QUZ - Hrs. Ex. Dobres</value>
+  </data>
+  <data name="str10104" xml:space="preserve">
+    <value>QUZ - Custo/Hr Standar</value>
+  </data>
+  <data name="str10105" xml:space="preserve">
+    <value>QUZ - Identidade </value>
+  </data>
+  <data name="str10106" xml:space="preserve">
+    <value>QUZ - Pontual</value>
+  </data>
+  <data name="str10107" xml:space="preserve">
+    <value>QUZ - Permanente</value>
+  </data>
+  <data name="str10108" xml:space="preserve">
+    <value>QUZ - Porcentual</value>
+  </data>
+  <data name="str10109" xml:space="preserve">
+    <value>QUZ - Fixa</value>
+  </data>
+  <data name="str10110" xml:space="preserve">
+    <value>QUZ - Impostos a trabalhadores</value>
+  </data>
+  <data name="str10111" xml:space="preserve">
+    <value>QUZ - Custo Hr. Ex. Simp.</value>
+  </data>
+  <data name="str10112" xml:space="preserve">
+    <value>QUZ - Custo Hr. Ex. Dbl.</value>
+  </data>
+  <data name="str10113" xml:space="preserve">
+    <value>QUZ - Categoria</value>
+  </data>
+  <data name="str10114" xml:space="preserve">
+    <value>QUZ - Periodo</value>
+  </data>
+  <data name="str10115" xml:space="preserve">
+    <value>QUZ - Permanente</value>
+  </data>
+  <data name="str10116" xml:space="preserve">
+    <value>QUZ - Fator Conversão</value>
+  </data>
+  <data name="str10117" xml:space="preserve">
+    <value>QUZ - Não se encontro registros</value>
+  </data>
+  <data name="str10118" xml:space="preserve">
+    <value>QUZ - A  soma</value>
+  </data>
+  <data name="str10119" xml:space="preserve">
+    <value>QUZ - Fator de Conversão incorreto</value>
+  </data>
+  <data name="str10120" xml:space="preserve">
+    <value>QUZ - Voucher</value>
+  </data>
+  <data name="str10121" xml:space="preserve">
+    <value>QUZ - Conceito</value>
+  </data>
+  <data name="str10122" xml:space="preserve">
+    <value>QUZ - Register Number</value>
+  </data>
+  <data name="str10123" xml:space="preserve">
+    <value>QUZ - Periodos de Pagamentos</value>
+  </data>
+  <data name="str10124" xml:space="preserve">
+    <value>QUZ - Base Imponivle</value>
+  </data>
+  <data name="str10125" xml:space="preserve">
+    <value>QUZ - Dominical</value>
+  </data>
+  <data name="str10126" xml:space="preserve">
+    <value>QUZ - Outros Benefícios</value>
+  </data>
+  <data name="str10127" xml:space="preserve">
+    <value>QUZ - Descontos </value>
+  </data>
+  <data name="str10128" xml:space="preserve">
+    <value>QUZ - Líquido</value>
+  </data>
+  <data name="str10129" xml:space="preserve">
+    <value>QUZ - Data Inicial</value>
+  </data>
+  <data name="str10130" xml:space="preserve">
+    <value>QUZ - Data Final</value>
+  </data>
+  <data name="str10131" xml:space="preserve">
+    <value>QUZ - Acrescentar </value>
+  </data>
+  <data name="str10132" xml:space="preserve">
+    <value>QUZ - Gerar</value>
+  </data>
+  <data name="str10133" xml:space="preserve">
+    <value>QUZ - Classe Hora</value>
+  </data>
+  <data name="str10134" xml:space="preserve">
+    <value>QUZ - Custo / Hora</value>
+  </data>
+  <data name="str10135" xml:space="preserve">
+    <value>QUZ - Validação</value>
+  </data>
+  <data name="str10136" xml:space="preserve">
+    <value>QUZ - Detalle de pagamentos</value>
+  </data>
+  <data name="str10137" xml:space="preserve">
+    <value>QUZ - Classe Valor</value>
+  </data>
+  <data name="str10138" xml:space="preserve">
+    <value>QUZ - Custo Hr. Sunat</value>
+  </data>
+  <data name="str10139" xml:space="preserve">
+    <value>QUZ - Validação de Pagamentos</value>
+  </data>
+  <data name="str10140" xml:space="preserve">
+    <value>QUZ - Ordenar por</value>
+  </data>
+  <data name="str10141" xml:space="preserve">
+    <value>QUZ - Cerrar</value>
+  </data>
+  <data name="str10142" xml:space="preserve">
+    <value>QUZ - Mostrar</value>
+  </data>
+  <data name="str10143" xml:space="preserve">
+    <value>QUZ - Outros Beneficios</value>
+  </data>
+  <data name="str112" xml:space="preserve">
+    <value>QUZ - Maquinária / Irrigação  / Produtos</value>
+  </data>
+  <data name="str113" xml:space="preserve">
+    <value>QUZ - Linhas</value>
+  </data>
+  <data name="str114" xml:space="preserve">
+    <value>QUZ - Colheitas</value>
+  </data>
+  <data name="str115" xml:space="preserve">
+    <value>QUZ - Seleccion de Pessoal</value>
+  </data>
+  <data name="str116" xml:space="preserve">
+    <value>QUZ - Tudos</value>
+  </data>
+  <data name="str117" xml:space="preserve">
+    <value>QUZ - Nenhum</value>
+  </data>
+  <data name="str118" xml:space="preserve">
+    <value>QUZ - Bajo</value>
+  </data>
+  <data name="str119" xml:space="preserve">
+    <value>QUZ - Medio</value>
+  </data>
+  <data name="str120" xml:space="preserve">
+    <value>QUZ - Tutal</value>
+  </data>
+  <data name="str121" xml:space="preserve">
+    <value>QUZ - Modulo</value>
+  </data>
+  <data name="str10144" xml:space="preserve">
+    <value>QUZ - Descontos </value>
+  </data>
+  <data name="str10145" xml:space="preserve">
+    <value>QUZ - Líquido</value>
+  </data>
+  <data name="str10146" xml:space="preserve">
+    <value>QUZ - Somar </value>
+  </data>
+  <data name="str10147" xml:space="preserve">
+    <value>QUZ - Afetac. Asociada</value>
+  </data>
+  <data name="str10148" xml:space="preserve">
+    <value>QUZ - Ciclo de Pagamento </value>
+  </data>
+  <data name="str10149" xml:space="preserve">
+    <value>QUZ - Ordenar</value>
+  </data>
+  <data name="str10150" xml:space="preserve">
+    <value>QUZ - Impostos a trabalhadores Sunat</value>
+  </data>
+  <data name="str10151" xml:space="preserve">
+    <value>QUZ - Periodos de Impostos a trabalhadores</value>
+  </data>
+  <data name="str10152" xml:space="preserve">
+    <value>QUZ - Periodo Cerrado</value>
+  </data>
+  <data name="str10153" xml:space="preserve">
+    <value>QUZ - Tipo de Relatório</value>
+  </data>
+  <data name="str10154" xml:space="preserve">
+    <value>QUZ - Afeta - Pessoal</value>
+  </data>
+  <data name="str10155" xml:space="preserve">
+    <value>QUZ - Limpar</value>
+  </data>
+  <data name="str10156" xml:space="preserve">
+    <value>QUZ - Acrescentar </value>
+  </data>
+  <data name="str10157" xml:space="preserve">
+    <value>QUZ - Substituir</value>
+  </data>
+  <data name="str10158" xml:space="preserve">
+    <value>QUZ - Classe Impostos</value>
+  </data>
+  <data name="str10159" xml:space="preserve">
+    <value>QUZ - Não foi possível apagar . Está sendo usado na tábua Pagamentos</value>
+  </data>
+  <data name="str7008" xml:space="preserve">
+    <value>QUZ - Armazém</value>
+  </data>
+  <data name="str7009" xml:space="preserve">
+    <value>QUZ - Contato</value>
+  </data>
+  <data name="str7010" xml:space="preserve">
+    <value>QUZ - Endereço  </value>
+  </data>
+  <data name="str7011" xml:space="preserve">
+    <value>QUZ - Telefone </value>
+  </data>
+  <data name="str7012" xml:space="preserve">
+    <value>QUZ - Classe de documento</value>
+  </data>
+  <data name="str10200" xml:space="preserve">
+    <value>QUZ - Bancos</value>
+  </data>
+  <data name="str10201" xml:space="preserve">
+    <value>QUZ - Setorista</value>
+  </data>
+  <data name="str10202" xml:space="preserve">
+    <value>QUZ - Conta</value>
+  </data>
+  <data name="str10300" xml:space="preserve">
+    <value>QUZ - Plan Contabil</value>
+  </data>
+  <data name="str10301" xml:space="preserve">
+    <value>QUZ - Conta Contabil</value>
+  </data>
+  <data name="str10302" xml:space="preserve">
+    <value>QUZ - Anexo</value>
+  </data>
+  <data name="str10303" xml:space="preserve">
+    <value>QUZ - Debe</value>
+  </data>
+  <data name="str7200" xml:space="preserve">
+    <value>QUZ - Movimento  entre armazéns </value>
+  </data>
+  <data name="str7201" xml:space="preserve">
+    <value>QUZ - Classe de Movimento</value>
+  </data>
+  <data name="str7202" xml:space="preserve">
+    <value>QUZ - Fecho de Kardex</value>
+  </data>
+  <data name="str7203" xml:space="preserve">
+    <value>QUZ - Fechar</value>
+  </data>
+  <data name="str7204" xml:space="preserve">
+    <value>QUZ - Data Guia</value>
+  </data>
+  <data name="str10400" xml:space="preserve">
+    <value>QUZ - Clientes</value>
+  </data>
+  <data name="str10401" xml:space="preserve">
+    <value>QUZ - Codigo Cliente</value>
+  </data>
+  <data name="str10402" xml:space="preserve">
+    <value>QUZ - Subdiarios</value>
+  </data>
+  <data name="str10403" xml:space="preserve">
+    <value>QUZ - Nome Cliente</value>
+  </data>
+  <data name="str10500" xml:space="preserve">
+    <value>QUZ - Tesouraria</value>
+  </data>
+  <data name="str10501" xml:space="preserve">
+    <value>QUZ - Data Voucher</value>
+  </data>
+  <data name="str10502" xml:space="preserve">
+    <value>QUZ - Voucher</value>
+  </data>
+  <data name="str10503" xml:space="preserve">
+    <value>QUZ - Data Documento</value>
+  </data>
+  <data name="str10504" xml:space="preserve">
+    <value>QUZ - Não se encontro registro</value>
+  </data>
+  <data name="str10505" xml:space="preserve">
+    <value>QUZ - Vendas</value>
+  </data>
+  <data name="str10506" xml:space="preserve">
+    <value>QUZ - Glosa</value>
+  </data>
+  <data name="str10507" xml:space="preserve">
+    <value>QUZ - Origem</value>
+  </data>
+  <data name="str10508" xml:space="preserve">
+    <value>QUZ - Conta y  Anexo</value>
+  </data>
+  <data name="str10509" xml:space="preserve">
+    <value>QUZ - Nro. Conta</value>
+  </data>
+  <data name="str10510" xml:space="preserve">
+    <value>QUZ - Anexo</value>
+  </data>
+  <data name="str10511" xml:space="preserve">
+    <value>QUZ - Quantia</value>
+  </data>
+  <data name="str10304" xml:space="preserve">
+    <value>QUZ - Haver</value>
+  </data>
+  <data name="str10305" xml:space="preserve">
+    <value>QUZ - Nro. Doc. Pago</value>
+  </data>
+  <data name="str10306" xml:space="preserve">
+    <value>QUZ - Classe Doc. Pago</value>
+  </data>
+  <data name="str10307" xml:space="preserve">
+    <value>QUZ - Data de Pagamento</value>
+  </data>
+  <data name="str10308" xml:space="preserve">
+    <value>QUZ - Saldo</value>
+  </data>
+  <data name="str10309" xml:space="preserve">
+    <value>QUZ - Anexo Descrição </value>
+  </data>
+  <data name="str10310" xml:space="preserve">
+    <value>QUZ - Caixa</value>
+  </data>
+  <data name="str10311" xml:space="preserve">
+    <value>QUZ - Fusão</value>
+  </data>
+  <data name="str10312" xml:space="preserve">
+    <value>QUZ - Troca por Letras</value>
+  </data>
+  <data name="str10313" xml:space="preserve">
+    <value>QUZ - Nro. Letras</value>
+  </data>
+  <data name="str10314" xml:space="preserve">
+    <value>QUZ - Número Letra</value>
+  </data>
+  <data name="str10315" xml:space="preserve">
+    <value>QUZ - A quantia deve ser menor ou igual ao saldo do documento.</value>
+  </data>
+  <data name="str10316" xml:space="preserve">
+    <value>QUZ - Ambas</value>
+  </data>
+  <data name="str10160" xml:space="preserve">
+    <value>QUZ - Sujeito a Descontos?</value>
+  </data>
+  <data name="str10161" xml:space="preserve">
+    <value>QUZ - Impostos</value>
+  </data>
+  <data name="str10162" xml:space="preserve">
+    <value>QUZ - Porcentagem</value>
+  </data>
+  <data name="str10163" xml:space="preserve">
+    <value>QUZ - Cod. Afec.Sunat</value>
+  </data>
+  <data name="str10164" xml:space="preserve">
+    <value>QUZ - Afec. Sunat. Asoc.</value>
+  </data>
+  <data name="str10165" xml:space="preserve">
+    <value>QUZ - Operação</value>
+  </data>
+  <data name="str10166" xml:space="preserve">
+    <value>QUZ - Nova</value>
+  </data>
+  <data name="str10167" xml:space="preserve">
+    <value>QUZ - Valor Novo</value>
+  </data>
+  <data name="str10168" xml:space="preserve">
+    <value>QUZ - Classe Valor Novo</value>
+  </data>
+  <data name="str10169" xml:space="preserve">
+    <value>QUZ - Periodo Pagamento</value>
+  </data>
+  <data name="str10170" xml:space="preserve">
+    <value>QUZ - Rol de Pagamentos C.Sunat</value>
+  </data>
+  <data name="str10171" xml:space="preserve">
+    <value>QUZ - Pagamentos C.Standar</value>
+  </data>
+  <data name="str10172" xml:space="preserve">
+    <value>QUZ - Alfabetico</value>
+  </data>
+  <data name="str10173" xml:space="preserve">
+    <value>QUZ - Maior a Menor</value>
+  </data>
+  <data name="str10174" xml:space="preserve">
+    <value>QUZ - Ciclo de Pagamento</value>
+  </data>
+  <data name="str11000" xml:space="preserve">
+    <value>QUZ - Ordem de Compra</value>
+  </data>
+  <data name="str11001" xml:space="preserve">
+    <value>QUZ - Solicitante</value>
+  </data>
+  <data name="str11002" xml:space="preserve">
+    <value>QUZ - Autorizacion</value>
+  </data>
+  <data name="str11003" xml:space="preserve">
+    <value>QUZ - Data de Entrega</value>
+  </data>
+  <data name="str11004" xml:space="preserve">
+    <value>QUZ - Lugar de Entrega</value>
+  </data>
+  <data name="str11005" xml:space="preserve">
+    <value>QUZ - Requerimento</value>
+  </data>
+  <data name="str11006" xml:space="preserve">
+    <value>QUZ - Desautorization</value>
+  </data>
+  <data name="str11007" xml:space="preserve">
+    <value>QUZ - Password</value>
+  </data>
+  <data name="str12000" xml:space="preserve">
+    <value>QUZ - Usuario</value>
+  </data>
+  <data name="str12001" xml:space="preserve">
+    <value>QUZ - Usuarios</value>
+  </data>
+  <data name="str12002" xml:space="preserve">
+    <value>QUZ - Ordem de Venda</value>
+  </data>
+  <data name="str12003" xml:space="preserve">
+    <value>QUZ - Vendedor</value>
+  </data>
+  <data name="str12004" xml:space="preserve">
+    <value>QUZ - Cliente</value>
+  </data>
+  <data name="str12005" xml:space="preserve">
+    <value>QUZ - El usuario ya tiene autorizacion para el modulo elegido!</value>
+  </data>
+  <data name="str12006" xml:space="preserve">
+    <value>QUZ - El recurso no tiene inductores en las fechas señaladas.</value>
+  </data>
+  <data name="str12007" xml:space="preserve">
+    <value>QUZ - El recurso no tiene importes a distribuir</value>
+  </data>
+  <data name="str12008" xml:space="preserve">
+    <value>QUZ - El proceso presento inconsistencias, el programa ejecutara el proceso de regularizacion solo para lor recursos que posean inductor e importe en el periodo seleccionado, continuar?</value>
+  </data>
+  <data name="str12009" xml:space="preserve">
+    <value>QUZ - Orden de Compra no autorizada</value>
+  </data>
+  <data name="str12010" xml:space="preserve">
+    <value>QUZ - Usuario o contraseña incorrectos. Debe respetar Mayusculas y Minusculas</value>
+  </data>
+  <data name="str12011" xml:space="preserve">
+    <value>QUZ - El usuario actualmente tiene una sesion abierta</value>
+  </data>
+  <data name="str12012" xml:space="preserve">
+    <value>QUZ - Se ha alcanzado el limite de usuarios concurrentes</value>
+  </data>
+  <data name="str16" xml:space="preserve">
+    <value>QUZ - Insumos y Produtos</value>
+  </data>
+  <data name="str17" xml:space="preserve">
+    <value>QUZ - Maquinária y Bombas de Irrigação</value>
+  </data>
+  <data name="str18" xml:space="preserve">
+    <value>QUZ - Pessoal</value>
+  </data>
+  <data name="str19" xml:space="preserve">
+    <value>QUZ - Áreas</value>
+  </data>
+  <data name="str20" xml:space="preserve">
+    <value>QUZ - Área de trabalho</value>
+  </data>
+  <data name="str21" xml:space="preserve">
+    <value>QUZ - Culturas</value>
+  </data>
+  <data name="str22" xml:space="preserve">
+    <value>QUZ - Etapas</value>
+  </data>
+  <data name="str23" xml:space="preserve">
+    <value>QUZ - Atividades</value>
+  </data>
+  <data name="str24" xml:space="preserve">
+    <value>QUZ - Formatos</value>
+  </data>
+  <data name="str25" xml:space="preserve">
+    <value>QUZ - Área de trabalho Rotatorios</value>
+  </data>
+  <data name="str26" xml:space="preserve">
+    <value>QUZ - Área de trabalho - Culturas</value>
+  </data>
+  <data name="str27" xml:space="preserve">
+    <value>QUZ - Custos de Insumos</value>
+  </data>
+  <data name="str28" xml:space="preserve">
+    <value>QUZ - Custos de Pessoal</value>
+  </data>
+  <data name="str29" xml:space="preserve">
+    <value>QUZ - Custos de Maquinária</value>
+  </data>
+  <data name="str30" xml:space="preserve">
+    <value>QUZ - Custos de Irrigação </value>
+  </data>
+  <data name="str31" xml:space="preserve">
+    <value>QUZ - Custos Diversos</value>
+  </data>
+  <data name="str32" xml:space="preserve">
+    <value>QUZ - Regularização</value>
+  </data>
+  <data name="str33" xml:space="preserve">
+    <value>QUZ - Orçamentos</value>
+  </data>
+  <data name="str34" xml:space="preserve">
+    <value>QUZ - Controle Orçamentario por Recursos</value>
+  </data>
+  <data name="str35" xml:space="preserve">
+    <value>QUZ - Ingredientes Ativos</value>
+  </data>
+  <data name="str36" xml:space="preserve">
+    <value>QUZ - Produto - Ingrediente</value>
+  </data>
+  <data name="str37" xml:space="preserve">
+    <value>QUZ - Ingredientes</value>
+  </data>
+  <data name="str38" xml:space="preserve">
+    <value>QUZ - Provedores</value>
+  </data>
+  <data name="str39" xml:space="preserve">
+    <value>QUZ - Linhas de Produtos</value>
+  </data>
+  <data name="str40" xml:space="preserve">
+    <value>QUZ - Armazéms</value>
+  </data>
+  <data name="str41" xml:space="preserve">
+    <value>QUZ - Compras</value>
+  </data>
+  <data name="str42" xml:space="preserve">
+    <value>QUZ - Acerto de Inventarios</value>
+  </data>
+  <data name="str43" xml:space="preserve">
+    <value>QUZ - Movimento entre  Armazéms</value>
+  </data>
+  <data name="str44" xml:space="preserve">
+    <value>QUZ - Calculo de Custos Promedio</value>
+  </data>
+  <data name="str45" xml:space="preserve">
+    <value>QUZ - Fecho de segurança</value>
+  </data>
+  <data name="str46" xml:space="preserve">
+    <value>QUZ - Soldos Salarios</value>
+  </data>
+  <data name="str47" xml:space="preserve">
+    <value>QUZ - Impostos a trabalhadores Sunat</value>
+  </data>
+  <data name="str48" xml:space="preserve">
+    <value>QUZ - Impostos a trabalhadores</value>
+  </data>
+  <data name="str49" xml:space="preserve">
+    <value>QUZ - Impostos - Pessoal</value>
+  </data>
+  <data name="str50" xml:space="preserve">
+    <value>QUZ - Categorias  Pessoal</value>
+  </data>
+  <data name="str51" xml:space="preserve">
+    <value>QUZ - Gestão de Pagamentos</value>
+  </data>
+  <data name="str52" xml:space="preserve">
+    <value>QUZ - Periodos de Pagamento</value>
+  </data>
+  <data name="str53" xml:space="preserve">
+    <value>QUZ - Gerando Pagamentos</value>
+  </data>
+  <data name="str54" xml:space="preserve">
+    <value>QUZ - Validar Pagamentos</value>
+  </data>
+  <data name="str55" xml:space="preserve">
+    <value>QUZ - Manutenção da Maquinária</value>
+  </data>
+  <data name="str56" xml:space="preserve">
+    <value>QUZ - Tesouraria</value>
+  </data>
+  <data name="str57" xml:space="preserve">
+    <value>QUZ - Bancos</value>
+  </data>
+  <data name="str58" xml:space="preserve">
+    <value>QUZ - Classes de Documento</value>
+  </data>
+  <data name="str59" xml:space="preserve">
+    <value>QUZ - Plano Contábil</value>
+  </data>
+  <data name="str60" xml:space="preserve">
+    <value>QUZ - Tipo de Cambio</value>
+  </data>
+  <data name="str61" xml:space="preserve">
+    <value>QUZ - Comprovantes</value>
+  </data>
+  <data name="str62" xml:space="preserve">
+    <value>QUZ - Colheitas</value>
+  </data>
+  <data name="str63" xml:space="preserve">
+    <value>QUZ - Grafico de Colheitas</value>
+  </data>
+  <data name="str64" xml:space="preserve">
+    <value>QUZ - Resumo de Colheitas</value>
+  </data>
+  <data name="str65" xml:space="preserve">
+    <value>QUZ - Vendas</value>
+  </data>
+  <data name="str66" xml:space="preserve">
+    <value>QUZ - Contabilidade</value>
+  </data>
+  <data name="str67" xml:space="preserve">
+    <value>QUZ - Livros</value>
+  </data>
+  <data name="str68" xml:space="preserve">
+    <value>QUZ - Compras</value>
+  </data>
+  <data name="str69" xml:space="preserve">
+    <value>QUZ - Vendas</value>
+  </data>
+  <data name="str70" xml:space="preserve">
+    <value>QUZ - Caixa - Bancos</value>
+  </data>
+  <data name="str71" xml:space="preserve">
+    <value>QUZ - Estoque</value>
+  </data>
+  <data name="str72" xml:space="preserve">
+    <value>QUZ - Rol Pagamentos a Trabalhadores</value>
+  </data>
+  <data name="str73" xml:space="preserve">
+    <value>QUZ - Diario</value>
+  </data>
+  <data name="str74" xml:space="preserve">
+    <value>QUZ - Mayor</value>
+  </data>
+  <data name="str75" xml:space="preserve">
+    <value>QUZ - Cierres</value>
+  </data>
+  <data name="str76" xml:space="preserve">
+    <value>QUZ - Assento de abertura</value>
+  </data>
+  <data name="str77" xml:space="preserve">
+    <value>QUZ - Subdiarios</value>
+  </data>
+  <data name="str78" xml:space="preserve">
+    <value>QUZ - Impostos</value>
+  </data>
+  <data name="str79" xml:space="preserve">
+    <value>QUZ - Depresição </value>
+  </data>
+  <data name="str80" xml:space="preserve">
+    <value>QUZ - Ordens</value>
+  </data>
+  <data name="str81" xml:space="preserve">
+    <value>QUZ - Ordens de Compras</value>
+  </data>
+  <data name="str82" xml:space="preserve">
+    <value>QUZ - Ordens de Venda</value>
+  </data>
+  <data name="str83" xml:space="preserve">
+    <value>QUZ - Ordens Salidas de Armazém</value>
+  </data>
+  <data name="str84" xml:space="preserve">
+    <value>QUZ - Usuarios</value>
+  </data>
+  <data name="str85" xml:space="preserve">
+    <value>QUZ - Autorízações</value>
+  </data>
+  <data name="str86" xml:space="preserve">
+    <value>QUZ - Parametro do sistema</value>
+  </data>
+  <data name="str87" xml:space="preserve">
+    <value>QUZ - Impostos a trabalhadores</value>
+  </data>
+  <data name="str88" xml:space="preserve">
+    <value>QUZ - Periodicidade Impostos a trabalhadores</value>
+  </data>
+  <data name="str89" xml:space="preserve">
+    <value>QUZ - Custos</value>
+  </data>
+  <data name="str90" xml:space="preserve">
+    <value>QUZ - Impto</value>
+  </data>
+  <data name="str91" xml:space="preserve">
+    <value>QUZ - T.C.</value>
+  </data>
+  <data name="str92" xml:space="preserve">
+    <value>QUZ - Inverçãos </value>
+  </data>
+  <data name="str93" xml:space="preserve">
+    <value>QUZ - Anos Deprec.</value>
+  </data>
+  <data name="str94" xml:space="preserve">
+    <value>QUZ - Deprec. Anual</value>
+  </data>
+  <data name="str95" xml:space="preserve">
+    <value>QUZ - Controle Orçamentario por Etapas</value>
+  </data>
+  <data name="str9200" xml:space="preserve">
+    <value>QUZ - Relatório Ingredientes Ativos</value>
+  </data>
+  <data name="str9201" xml:space="preserve">
+    <value>QUZ - Relatório de Manutenção uma Maquinária</value>
+  </data>
+  <data name="str9202" xml:space="preserve">
+    <value>QUZ - Resumo de Manutenção</value>
+  </data>
+  <data name="str9203" xml:space="preserve">
+    <value>QUZ - Relatório Tesouraria</value>
+  </data>
+  <data name="str9204" xml:space="preserve">
+    <value>QUZ - Relatório Pagamentos</value>
+  </data>
+  <data name="str9205" xml:space="preserve">
+    <value>QUZ - Saldos de Armazém</value>
+  </data>
+  <data name="str9206" xml:space="preserve">
+    <value>QUZ - Kardex Contabil</value>
+  </data>
+  <data name="str9207" xml:space="preserve">
+    <value>QUZ - Kardex Standar</value>
+  </data>
+  <data name="str9208" xml:space="preserve">
+    <value>QUZ - Quadros </value>
+  </data>
+  <data name="str9209" xml:space="preserve">
+    <value>QUZ - 15. Resumo Culturas / Recursos</value>
+  </data>
+  <data name="str9210" xml:space="preserve">
+    <value>QUZ - Resumo por Etapas</value>
+  </data>
+  <data name="str9211" xml:space="preserve">
+    <value>QUZ - 3. Relatório numa Área de trabalho por Recursos</value>
+  </data>
+  <data name="str9212" xml:space="preserve">
+    <value>QUZ - 4. Relatório numa Área de trabalho por Atividades</value>
+  </data>
+  <data name="str9213" xml:space="preserve">
+    <value>QUZ - 2. Resumo Culturas / Áreas de trabalho / Etapas</value>
+  </data>
+  <data name="str9214" xml:space="preserve">
+    <value>QUZ - 5. Resumo numa Etapa</value>
+  </data>
+  <data name="str9215" xml:space="preserve">
+    <value>QUZ - 6. Resumo numa Atividade</value>
+  </data>
+  <data name="str9216" xml:space="preserve">
+    <value>QUZ - 7. Resumo num Cultura</value>
+  </data>
+  <data name="str9217" xml:space="preserve">
+    <value>QUZ - 8. Relatório Insumos Um Cultura</value>
+  </data>
+  <data name="str9218" xml:space="preserve">
+    <value>QUZ - 9. Relatório Pessoal Uma Cultura</value>
+  </data>
+  <data name="str9219" xml:space="preserve">
+    <value>QUZ - 11. Quadro Culturas - Recursos</value>
+  </data>
+  <data name="str9220" xml:space="preserve">
+    <value>QUZ - 10. Quadro Recursos - Culturas</value>
+  </data>
+  <data name="str9221" xml:space="preserve">
+    <value>QUZ - 12. Quadro Culturas - Área de trabalho</value>
+  </data>
+  <data name="str9222" xml:space="preserve">
+    <value>QUZ - 13. Quadro Um Recurso / Uma Cultura / Atividades</value>
+  </data>
+  <data name="str9223" xml:space="preserve">
+    <value>QUZ - 14. Horas Irrigação Por Área de trabalho</value>
+  </data>
+  <data name="str9224" xml:space="preserve">
+    <value>QUZ - 1. Resumo Culturas / Área de trabalho / Recursos</value>
+  </data>
+  <data name="str9225" xml:space="preserve">
+    <value>QUZ - 16.  Resumo de Culturas /  Área de trabalho  / Inc. Indiretos</value>
+  </data>
+  <data name="str9226" xml:space="preserve">
+    <value>QUZ - 17. Exportar BD a Excel</value>
+  </data>
+  <data name="str9227" xml:space="preserve">
+    <value>QUZ - Resumo de Vendas Um Cultura</value>
+  </data>
+  <data name="str9228" xml:space="preserve">
+    <value>QUZ - Infraestrutura</value>
+  </data>
+  <data name="str9229" xml:space="preserve">
+    <value>QUZ - Prep.Terreno</value>
+  </data>
+  <data name="str9230" xml:space="preserve">
+    <value>QUZ - Sembra</value>
+  </data>
+  <data name="str9231" xml:space="preserve">
+    <value>QUZ - Manutenção</value>
+  </data>
+  <data name="str12100" xml:space="preserve">
+    <value>QUZ - CUSTO DIRETO</value>
+  </data>
+  <data name="str12101" xml:space="preserve">
+    <value>QUZ - CUSTO INDIRETO</value>
+  </data>
+  <data name="str12102" xml:space="preserve">
+    <value>QUZ - ATIVIDADE DIRETA</value>
+  </data>
+  <data name="str12103" xml:space="preserve">
+    <value>QUZ - ATIVIDADE INDIRETA</value>
+  </data>
+  <data name="str10512" xml:space="preserve">
+    <value>QUZ - Centro de Custos</value>
+  </data>
+  <data name="str10513" xml:space="preserve">
+    <value>QUZ - Debe - Haver não encaixa.</value>
+  </data>
+  <data name="str10514" xml:space="preserve">
+    <value>QUZ - Faltam Quantia</value>
+  </data>
+  <data name="str10515" xml:space="preserve">
+    <value>QUZ - Documento Duplicado</value>
+  </data>
+  <data name="str10516" xml:space="preserve">
+    <value>QUZ - Nro Enlace</value>
+  </data>
+  <data name="str10517" xml:space="preserve">
+    <value>QUZ - Data Cont</value>
+  </data>
+  <data name="str10518" xml:space="preserve">
+    <value>QUZ - Debe(0) - Haber(-1)</value>
+  </data>
+  <data name="str9191" xml:space="preserve">
+    <value>QUZ - Quant.Tot. Ingte</value>
+  </data>
+  <data name="str9192" xml:space="preserve">
+    <value>QUZ - Quant.Ingred.</value>
+  </data>
+  <data name="str9193" xml:space="preserve">
+    <value>QUZ - Quant.Pdto.</value>
+  </data>
+  <data name="str9194" xml:space="preserve">
+    <value>QUZ - Exportar</value>
+  </data>
+  <data name="str9195" xml:space="preserve">
+    <value>QUZ - Imprimir</value>
+  </data>
+  <data name="str9196" xml:space="preserve">
+    <value>QUZ - Configurar</value>
+  </data>
+  <data name="str9197" xml:space="preserve">
+    <value>QUZ - Ver</value>
+  </data>
+  <data name="str9198" xml:space="preserve">
+    <value>QUZ - Intervalo</value>
+  </data>
+  <data name="str9199" xml:space="preserve">
+    <value>QUZ - Desde</value>
+  </data>
+  <data name="str9232" xml:space="preserve">
+    <value>QUZ - Colheitas</value>
+  </data>
+  <data name="str9233" xml:space="preserve">
+    <value>QUZ - Post.Colheitas</value>
+  </data>
+  <data name="str9234" xml:space="preserve">
+    <value>QUZ - Ativ.Indiretas</value>
+  </data>
+  <data name="str9235" xml:space="preserve">
+    <value>QUZ - Área de trabalho / Produtos</value>
+  </data>
+  <data name="str9236" xml:space="preserve">
+    <value>QUZ - Área de trabalho / Atividade</value>
+  </data>
+  <data name="str9237" xml:space="preserve">
+    <value>QUZ - Control Presupuestal Cultivos/Zonas de trabajo/Recursos</value>
+  </data>
+  <data name="str9238" xml:space="preserve">
+    <value>QUZ - Control Presupuestal Cultivos/Zonas de trabajo/Etapas</value>
+  </data>
+  <data name="str9239" xml:space="preserve">
+    <value>QUZ - Control Presupuestal Cultivos/Zonas de trabajo/Recursos/Periodos</value>
+  </data>
+  <data name="str9024" xml:space="preserve">
+    <value>QUZ - Quantia / ha</value>
+  </data>
+  <data name="str11008" xml:space="preserve">
+    <value>QUZ - Autorizado</value>
+  </data>
+  <data name="str11009" xml:space="preserve">
+    <value>QUZ - Pendente</value>
+  </data>
+  <data name="str4016" xml:space="preserve">
+    <value>QUZ - Esta seguro de replicar?</value>
+  </data>
+  <data name="str12104" xml:space="preserve">
+    <value>QUZ - Voce deve seleccionar um registro</value>
+  </data>
+  <data name="str12105" xml:space="preserve">
+    <value>QUZ - Inserir dados</value>
+  </data>
+  <data name="str12106" xml:space="preserve">
+    <value>QUZ - Bienvenido a ABcosts un producto de www.agrisoft.pe</value>
+  </data>
+  <data name="str12107" xml:space="preserve">
+    <value>QUZ - Error!</value>
+  </data>
+  <data name="str12108" xml:space="preserve">
+    <value>QUZ - ¿Aún no tienes cuenta?</value>
+  </data>
+  <data name="str12109" xml:space="preserve">
+    <value>QUZ - Regístrate</value>
+  </data>
+  <data name="str12110" xml:space="preserve">
+    <value>QUZ - Ingrese nombre de Usuario</value>
+  </data>
+  <data name="str12111" xml:space="preserve">
+    <value>QUZ - Ingrese contraseña</value>
+  </data>
+  <data name="str12112" xml:space="preserve">
+    <value>QUZ - Recordar</value>
+  </data>
+  <data name="str12113" xml:space="preserve">
+    <value>QUZ - Iniciar Sesión</value>
+  </data>
+  <data name="str12114" xml:space="preserve">
+    <value>QUZ - Correo electrónico</value>
+  </data>
+  <data name="str12115" xml:space="preserve">
+    <value>QUZ - Ingrese correo electrónico</value>
+  </data>
+  <data name="str12116" xml:space="preserve">
+    <value>QUZ - Confirmar Contraseña</value>
+  </data>
+  <data name="str12117" xml:space="preserve">
+    <value>QUZ - Confirme contraseña</value>
+  </data>
+  <data name="str12118" xml:space="preserve">
+    <value>QUZ - Nombre Cliente</value>
+  </data>
+  <data name="str12119" xml:space="preserve">
+    <value>QUZ - Opcional</value>
+  </data>
+  <data name="str12120" xml:space="preserve">
+    <value>QUZ - Apellidos Cliente</value>
+  </data>
+  <data name="str12121" xml:space="preserve">
+    <value>QUZ - Nombre Empresa</value>
+  </data>
+  <data name="str12122" xml:space="preserve">
+    <value>QUZ - Regístra tus datos</value>
+  </data>
+  <data name="str12123" xml:space="preserve">
+    <value>QUZ - Registrarse</value>
+  </data>
+  <data name="str12124" xml:space="preserve">
+    <value>QUZ - Maquinas</value>
+  </data>
+  <data name="str12125" xml:space="preserve">
+    <value>QUZ - Debe ingresar Número de Parte</value>
+  </data>
+  <data name="str12126" xml:space="preserve">
+    <value>¡QUZ - Bienvenido a ABcosts un producto de www.agrisoft.pe!</value>
+  </data>
+  <data name="str12127" xml:space="preserve">
+    <value>QUZ - El codigo debe ser de {0} caracteres</value>
+  </data>
+  <data name="str991" xml:space="preserve">
+    <value>QUZ - Registers of Costs, Harvest </value>
+  </data>
+  <data name="str12133" xml:space="preserve">
+    <value>QUZ - Olvidaste tu contraseña?</value>
+  </data>
+  <data name="str12134" xml:space="preserve">
+    <value>Ingrese Id de Usuario (6 dígitos)</value>
+  </data>
+  <data name="str99991" xml:space="preserve">
+    <value>QUZ Ingrese Fechas Validas</value>
+  </data>
+  <data name="str99992" xml:space="preserve">
+    <value>QUZ El formato de la fecha debe ser dd/mm/yyyy</value>
+  </data>
+  <data name="str99993" xml:space="preserve">
+    <value>QUZ El código de acceso está vencido</value>
+  </data>
+  <data name="str99994" xml:space="preserve">
+    <value>QUZ El código de acceso no es válido</value>
+  </data>
+  <data name="str99995" xml:space="preserve">
+    <value>QUZ El código de acceso no es válido</value>
+  </data>
+  <data name="str99996" xml:space="preserve">
+    <value>QUZ Lo sentimos, este email ya está registrado.</value>
+  </data>
+  <data name="str99997" xml:space="preserve">
+    <value>QUZ Hubo un error al registrar la empresa.</value>
+  </data>
+  <data name="str99998" xml:space="preserve">
+    <value>QUZ Empresa ya existe:</value>
+  </data>
+  <data name="str99999" xml:space="preserve">
+    <value>QUZ Hubo un error al registrar el usuario</value>
+  </data>
+  <data name="str999991" xml:space="preserve">
+    <value>QUZ Base de Datos creada correctamente.</value>
+  </data>
+  <data name="str999992" xml:space="preserve">
+    <value>QUZ Hubo un problema al cargar el archivo</value>
+  </data>
+  <data name="str999993" xml:space="preserve">
+    <value>QUZ Archivo cargado satisfactoriamente</value>
+  </data>
+  <data name="str999994" xml:space="preserve">
+    <value>QUZ Este usuario ya está registrado.Pruebe con otro</value>
+  </data>
+  <data name="str999995" xml:space="preserve">
+    <value>QUZ Excedió la cantidad de trabajadores permitidos para esta versión</value>
+  </data>
+  <data name="str999996" xml:space="preserve">
+    <value>QUZ Existe una zona de trabajo con el mismo codigo</value>
+  </data>
+  <data name="str999997" xml:space="preserve">
+    <value>QUZ Esta zona de trabajo ya fue uitilizada como activo en contabilidad. Para eliminar esta zona de trabajo, debe primero borrar tambien el activo y los asientos contables asociados</value>
+  </data>
+  <data name="str999998" xml:space="preserve">
+    <value>QUZ Existe un proveedor con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str999999" xml:space="preserve">
+    <value>QUZ Existe un producto con la misma descripcion y unidad. Modifique la descripcion o la unidad</value>
+  </data>
+  <data name="str99999950" xml:space="preserve">
+    <value>QUZ Reportes de Almacen</value>
+  </data>
+  <data name="str99999951" xml:space="preserve">
+    <value>QUZ Reportes de Cosecha</value>
+  </data>
+  <data name="str99999960" xml:space="preserve">
+    <value>QUZ Importar archivo txt</value>
+  </data>
+  <data name="str99999961" xml:space="preserve">
+    <value>QUZ Jabas</value>
+  </data>
+  <data name="str99999971" xml:space="preserve">
+    <value>QUZ Existe una Linea de PRoducto con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str99999972" xml:space="preserve">
+    <value>QUZ Existe una maquina con la misma descripcion. Pruebe otra descripcion o modifique algun caracter</value>
+  </data>
+  <data name="str99999973" xml:space="preserve">
+    <value>QUZ Ingresar Registros</value>
+  </data>
+  <data name="str99999974" xml:space="preserve">
+    <value>QUZ Ingreso de Costos</value>
+  </data>
+  <data name="str99999975" xml:space="preserve">
+    <value>QUZ Planeamiento</value>
+  </data>
+  <data name="str99999976" xml:space="preserve">
+    <value>QUZ Reportes de Costos</value>
+  </data>
+  <data name="str99999977" xml:space="preserve">
+    <value>QUZ Reporte Una Zona de Trabajo por Recursos Resumido</value>
+  </data>
+  <data name="str99999978" xml:space="preserve">
+    <value>QUZ Reporte Una Zona de Trabajo por Recursos Detallado</value>
+  </data>
+  <data name="str99999979" xml:space="preserve">
+    <value>QUZ Resumen Comparativo de Cosechas</value>
+  </data>
+  <data name="str99999981" xml:space="preserve">
+    <value>QUZ No ha ingresado items para grabar</value>
+  </data>
+  <data name="str99999982" xml:space="preserve">
+    <value>QUZ CodZW</value>
+  </data>
+  <data name="str99999983" xml:space="preserve">
+    <value>QUZ CodAct</value>
+  </data>
+  <data name="str99999984" xml:space="preserve">
+    <value>QUZ Cod.Rec.</value>
+  </data>
+  <data name="str99999985" xml:space="preserve">
+    <value>QUZ Las actividades no pueden empezar con los siguientes caracteres: DIAF,SUBS,DESM,VACA</value>
+  </data>
+  <data name="str99999986" xml:space="preserve">
+    <value>QUZ Dosis</value>
+  </data>
+  <data name="str99999987" xml:space="preserve">
+    <value>QUZ Existe un cultivo con la misma descripcion. Debera modificarlo.</value>
+  </data>
+  <data name="str99999988" xml:space="preserve">
+    <value>QUZ Existe una etapa con el mismo codigo. Debera modificarlo</value>
+  </data>
+  <data name="str99999989" xml:space="preserve">
+    <value>QUZ Existe una etapa con la misma descripcion. Modifique la descripcion.</value>
+  </data>
+  <data name="str99999940" xml:space="preserve">
+    <value>QUZ Cerrar Sesion</value>
+  </data>
+  <data name="str99999930" xml:space="preserve">
+    <value />
+  </data>
+</root>

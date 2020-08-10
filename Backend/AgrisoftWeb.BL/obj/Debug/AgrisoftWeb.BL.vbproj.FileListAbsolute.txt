@@ -1,0 +1,120 @@
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+C:\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+D:\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+C:\Users\juan\Desktop\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb2803\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb2804\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1105\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+F:\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.dll
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.pdb
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\bin\Debug\AgrisoftWeb.BL.xml
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbprojResolveAssemblyReference.cache
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\Interop.ADODB.dll
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.ResolveComReference.cache
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.Resources.resources
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.vbproj.GenerateResource.Cache
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.dll
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.xml
+D:\Mateinnova\Agrisof\web\AgrisoftWeb1105 - copia\AgrisoftWeb1803\AgrisoftWeb\Backend\AgrisoftWeb.BL\obj\Debug\AgrisoftWeb.BL.pdb

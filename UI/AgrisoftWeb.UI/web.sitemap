@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+  <siteMapNode url="" title="Home"  description="Home">
+    <siteMapNode url="" resourceKey="EnterData">
+      <siteMapNode url="Pages/ImportarCostos.aspx" title="Importar de TXT" description="Importar Costos" menuKey="mnuImportar" resourceKey="str9258" />
+      <siteMapNode url="" resourceKey="EnterCosts" >
+        <siteMapNode url="Pages/frmCostos_View.aspx" title="Digitar Registros" description="Costos" menuKey="CostosToolStripMenuItem1" resourceKey="EnterCostsForm" />
+        <siteMapNode url="Pages/frmCostosProductosView.aspx" title="Digitar Registros" description="Costos" menuKey="CostosToolStripMenuItem1" resourceKey="EnterCostsProduct" />
+        <siteMapNode url="Pages/frmCostosCosechasView.aspx" title="Digitar Registros" description="Costos" menuKey="CostosToolStripMenuItem1" resourceKey="EnterCostsCosecha" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="Estructura de Costos" description="Estructura de Costos" resourceKey="Masters">
+      <siteMapNode url="" title="Centros de Costos" description="Centros de Costos" resourceKey="str124">
+        <siteMapNode url="Pages/frmCultivosView.aspx" title="Cultivos" description="" menuKey="menucultivos" resourceKey="str5001" />
+        <siteMapNode url="Pages/frmZonaTrabajo_View.aspx" title="Zona de Trabajo" description="" menuKey="menuzonastrabajo1" resourceKey="str20" />
+      </siteMapNode>
+      <siteMapNode url="" title="Procesos" description="Procesos" resourceKey="str170">
+        <siteMapNode url="Pages/frmEtapasView.aspx" title="Etapas" description="" menuKey="ToolStripMenuItem118" resourceKey="" />
+        <siteMapNode url="Pages/frmActividades_View.aspx" title="Actividades" description="" menuKey="ToolStripMenuItem118" resourceKey="str201" />
+      </siteMapNode>
+      <siteMapNode url="" title="Recursos" description="Recursos" resourceKey="str2011">
+        <siteMapNode url="Pages/frmPersonalB_View.aspx" title="Personal" description="" menuKey="ToolStripMenuItem122" resourceKey="str18" />
+        <siteMapNode url="Pages/frmProductos_View.aspx" title="Insumos" description="" menuKey="ToolStripMenuItem124" resourceKey="str2012" />
+        <siteMapNode url="Pages/frmMaquinas_View.aspx" title="Maquinarias" description="" menuKey="ToolStripMenuItem125" resourceKey="str2003" />
+        <siteMapNode url="Pages/frmproveedoresView.aspx" title="Proveedores" description="" menuKey="menuproveedores" resourceKey="str38" />
+        <siteMapNode url="Pages/frmLineaProductoView.aspx" title="" description="" menuKey="menuproveedores" resourceKey="frmLineaProducto" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="Reportes" description="Reportes" resourceKey="Reports">
+      <siteMapNode url="" title="Reportes de Costos" description="Reportes de Costos" resourceKey="Reports2">
+        <siteMapNode url="Pages/frmResumenCostosEnTodosLosCultivosHA.aspx" title="Resumen por Recursos y Hectarea" description="" menuKey="CrresumenrecursosHA" resourceKey="str9242" />
+        <siteMapNode url="Pages/frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx" description="" menuKey="CrReporteUnaZonaPorRubros" resourceKey="ReporteCostoZTAgroinperResumido" />
+        <siteMapNode url="Pages/frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx" description="" menuKey="CrReporteUnaZonaPorRubros" resourceKey="ReporteCostoZTAgroinperDetail" />
+        <siteMapNode url="Pages/FrmReporteZTCostosRecursosEtapasActividades.aspx" title="Reporte por Actividades en una Zona de Trabajo " description="" menuKey="CrUnaZonaPorRecEtapaActividades" resourceKey="str9212" />
+        <siteMapNode url="Pages/frmResumenCostosEnTodosLosCultivosKilo.aspx" title="Reporte de Costo por Kilo" description="" menuKey="CrUnaZonaPorRecEtapaActividades" resourceKey="ReportKilo" />
+     </siteMapNode>
+       <siteMapNode url="" title="Reportes de Cosecha" description="Reportes de Cosecha" resourceKey="Reports3">
+        <siteMapNode url="Pages/frmResumenCosechaporcampanas.aspx" title="Reporte Comparativo de campañas" description="" menuKey="CrUnaZonaPorRecEtapaActividades" resourceKey="ReportCampanas" />
+       </siteMapNode>
+       <siteMapNode url="" title="Reportes de Almacen" description="Reportes de Almacen" resourceKey="Reports4">
+        <siteMapNode url="Pages/frmReporteSaldosDeAlmacen.aspx" title="Saldos de Almacen" description="" menuKey="ToolStripMenuItem131" resourceKey="str9205" />
+        <siteMapNode url="Pages/frmKardexDeProductoStandar.aspx" title="Kardex Standar" description="" menuKey="ToolStripMenuItem134"  resourceKey="str9207"/>
+    </siteMapNode>
+     </siteMapNode>
+  </siteMapNode>
+  </siteMap>
+

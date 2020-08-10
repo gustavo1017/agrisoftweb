@@ -1,0 +1,1044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1AF012BA-5848-473C-9176-08812D717943}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AgrisoftWeb.UI</RootNamespace>
+    <AssemblyName>AgrisoftWeb.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AgrisoftWeb.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AgrisoftWeb.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.94.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ClosedXML.0.94.2\lib\net46\ClosedXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DocumentFormat.OpenXml, Version=2.10.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DocumentFormat.OpenXml.2.10.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.9.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ExcelNumberFormat.1.0.9\lib\net20\ExcelNumberFormat.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\FastMember.1.5.0\lib\net461\FastMember.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SendGrid">
+      <HintPath>..\..\..\..\BootstrapMenu\BootstrapMenu\bin\SendGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\401.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\images\ui-icons_444444_256x240.png" />
+    <Content Include="css\images\ui-icons_555555_256x240.png" />
+    <Content Include="css\images\ui-icons_777620_256x240.png" />
+    <Content Include="css\images\ui-icons_777777_256x240.png" />
+    <Content Include="css\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\Master.css" />
+    <Content Include="css\Menu.css" />
+    <Content Include="DBScript\AgrisoftDB.sql" />
+    <Content Include="img\facebuttonES.png" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\frmActividades.aspx" />
+    <Content Include="Pages\frmActividades_ordenar.aspx" />
+    <Content Include="Pages\frmActividades_View.aspx" />
+    <Content Include="Pages\frmExportarExcelMobile.aspx" />
+    <Content Include="Pages\frmPlaneamiento.aspx" />
+    <Content Include="Pages\frmCostos.aspx" />
+    <Content Include="Pages\frmCostosCosechas.aspx" />
+    <Content Include="Pages\frmCostosCosechasView.aspx" />
+    <Content Include="Pages\frmCostosProductos.aspx" />
+    <Content Include="Pages\frmCostosProductosView.aspx" />
+    <Content Include="Pages\frmPlaneamiento_View.aspx" />
+    <Content Include="Pages\frmCostos_View.aspx" />
+    <Content Include="Pages\frmCultivos.aspx" />
+    <Content Include="Pages\frmCultivos_ordenar.aspx" />
+    <Content Include="Pages\frmCultivos_ordenarJS.aspx" />
+    <Content Include="Pages\frmCultivosView.aspx" />
+    <Content Include="Pages\frmEtapas.aspx" />
+    <Content Include="Pages\frmEtapasView.aspx" />
+    <Content Include="Pages\frmExport_Parametros.aspx" />
+    <Content Include="Pages\frmHelp.aspx" />
+    <Content Include="Pages\frmKardexDeProductoStandar.aspx" />
+    <Content Include="Pages\frmLineaProducto.aspx" />
+    <Content Include="Pages\frmLineaProductoView.aspx" />
+    <Content Include="Pages\frmLoginFacebookOk.aspx" />
+    <Content Include="Pages\frmLoginServer.aspx" />
+    <Content Include="Pages\frmMainMenu.aspx" />
+    <Content Include="Pages\frmMaquinas.aspx" />
+    <Content Include="Pages\frmMaquinas_view.aspx" />
+    <Content Include="Pages\frmPersonalB.aspx" />
+    <Content Include="Pages\frmPersonalb_View.aspx" />
+    <Content Include="Pages\frmProductos.aspx" />
+    <Content Include="Pages\frmProductos_View.aspx" />
+    <Content Include="Pages\frmProveedores.aspx" />
+    <Content Include="Pages\frmProveedoresView.aspx" />
+    <Content Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx" />
+    <Content Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx" />
+    <Content Include="Pages\frmReporteSaldosDeAlmacen.aspx" />
+    <Content Include="Pages\FrmReporteZTCostosRecursosEtapasActividades.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Pages\frmResumenCosechaporcampanas.aspx" />
+    <Content Include="Pages\frmResumenCostosEnTodosLosCultivosKilo.aspx" />
+    <Content Include="Pages\frmSignUp.aspx" />
+    <Content Include="Pages\frmZonaTrabajo.aspx" />
+    <Content Include="Pages\frmZonaTrabajo_View.aspx" />
+    <Content Include="Pages\ImportarCostos.aspx" />
+    <Content Include="Pages\NewPassword.aspx" />
+    <Content Include="Pages\ResetPassword.aspx" />
+    <Content Include="Pages\SessionExpired.aspx" />
+    <Content Include="Pages\Unauthorized.aspx" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui.min.css" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\frmResumenCostosEnTodosLosCultivosHA.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APKController.vb" />
+    <Compile Include="App_GlobalResources\Resource1.designer.vb">
+      <DependentUpon>Resource1.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource1.es.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource1.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource1.fr.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource1.quz.designer.vb">
+      <DependentUpon>Resource1.quz.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resource1.pt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.designer.vb">
+      <DependentUpon>Web.sitemap.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.fr.designer.vb">
+      <DependentUpon>Web.sitemap.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.quz.designer.vb">
+      <DependentUpon>Web.sitemap.quz.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.pt.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Web.sitemap.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.es.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Web.sitemap.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Web.sitemap.en1.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Web.sitemap.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelController.vb" />
+    <Compile Include="Pages\BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmActividades.aspx.designer.vb">
+      <DependentUpon>frmActividades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmActividades.aspx.vb">
+      <DependentUpon>frmActividades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmActividades_ordenar.aspx.designer.vb">
+      <DependentUpon>frmActividades_ordenar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmActividades_ordenar.aspx.vb">
+      <DependentUpon>frmActividades_ordenar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmActividades_View.aspx.designer.vb">
+      <DependentUpon>frmActividades_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmActividades_View.aspx.vb">
+      <DependentUpon>frmActividades_View.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmExportarExcelMobile.aspx.designer.vb">
+      <DependentUpon>frmExportarExcelMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmExportarExcelMobile.aspx.vb">
+      <DependentUpon>frmExportarExcelMobile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmPlaneamiento.aspx.designer.vb">
+      <DependentUpon>frmPlaneamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmPlaneamiento.aspx.vb">
+      <DependentUpon>frmPlaneamiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostos.aspx.designer.vb">
+      <DependentUpon>frmCostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostos.aspx.vb">
+      <DependentUpon>frmCostos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostosCosechas.aspx.designer.vb">
+      <DependentUpon>frmCostosCosechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostosCosechas.aspx.vb">
+      <DependentUpon>frmCostosCosechas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostosCosechasView.aspx.designer.vb">
+      <DependentUpon>frmCostosCosechasView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostosCosechasView.aspx.vb">
+      <DependentUpon>frmCostosCosechasView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostosProductos.aspx.designer.vb">
+      <DependentUpon>frmCostosProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostosProductos.aspx.vb">
+      <DependentUpon>frmCostosProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostosProductosView.aspx.designer.vb">
+      <DependentUpon>frmCostosProductosView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostosProductosView.aspx.vb">
+      <DependentUpon>frmCostosProductosView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmPlaneamiento_View.aspx.designer.vb">
+      <DependentUpon>frmPlaneamiento_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmPlaneamiento_View.aspx.vb">
+      <DependentUpon>frmPlaneamiento_View.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCostos_View.aspx.designer.vb">
+      <DependentUpon>frmCostos_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCostos_View.aspx.vb">
+      <DependentUpon>frmCostos_View.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCultivos.aspx.designer.vb">
+      <DependentUpon>frmCultivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCultivos.aspx.vb">
+      <DependentUpon>frmCultivos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCultivos_ordenar.aspx.designer.vb">
+      <DependentUpon>frmCultivos_ordenar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCultivos_ordenar.aspx.vb">
+      <DependentUpon>frmCultivos_ordenar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCultivos_ordenarJS.aspx.designer.vb">
+      <DependentUpon>frmCultivos_ordenarJS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCultivos_ordenarJS.aspx.vb">
+      <DependentUpon>frmCultivos_ordenarJS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCultivosView.aspx.designer.vb">
+      <DependentUpon>frmCultivosView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCultivosView.aspx.vb">
+      <DependentUpon>frmCultivosView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmEtapas.aspx.designer.vb">
+      <DependentUpon>frmEtapas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmEtapas.aspx.vb">
+      <DependentUpon>frmEtapas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmEtapasView.aspx.designer.vb">
+      <DependentUpon>frmEtapasView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmEtapasView.aspx.vb">
+      <DependentUpon>frmEtapasView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmExport_Parametros.aspx.designer.vb">
+      <DependentUpon>frmExport_Parametros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmExport_Parametros.aspx.vb">
+      <DependentUpon>frmExport_Parametros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmHelp.aspx.designer.vb">
+      <DependentUpon>frmHelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmHelp.aspx.vb">
+      <DependentUpon>frmHelp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmKardexDeProductoStandar.aspx.designer.vb">
+      <DependentUpon>frmKardexDeProductoStandar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmKardexDeProductoStandar.aspx.vb">
+      <DependentUpon>frmKardexDeProductoStandar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmLineaProducto.aspx.designer.vb">
+      <DependentUpon>frmLineaProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmLineaProducto.aspx.vb">
+      <DependentUpon>frmLineaProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmLineaProductoView.aspx.designer.vb">
+      <DependentUpon>frmLineaProductoView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmLineaProductoView.aspx.vb">
+      <DependentUpon>frmLineaProductoView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmLoginFacebookOk.aspx.designer.vb">
+      <DependentUpon>frmLoginFacebookOk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmLoginFacebookOk.aspx.vb">
+      <DependentUpon>frmLoginFacebookOk.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmLoginServer.aspx.designer.vb">
+      <DependentUpon>frmLoginServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmLoginServer.aspx.vb">
+      <DependentUpon>frmLoginServer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmMainMenu.aspx.designer.vb">
+      <DependentUpon>frmMainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmMainMenu.aspx.vb">
+      <DependentUpon>frmMainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmMaquinas.aspx.designer.vb">
+      <DependentUpon>frmMaquinas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmMaquinas.aspx.vb">
+      <DependentUpon>frmMaquinas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmMaquinas_view.aspx.designer.vb">
+      <DependentUpon>frmMaquinas_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmMaquinas_view.aspx.vb">
+      <DependentUpon>frmMaquinas_view.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmPersonalB.aspx.designer.vb">
+      <DependentUpon>frmPersonalB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmPersonalB.aspx.vb">
+      <DependentUpon>frmPersonalB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmPersonalb_View.aspx.designer.vb">
+      <DependentUpon>frmPersonalb_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmPersonalb_View.aspx.vb">
+      <DependentUpon>frmPersonalb_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmProductos.aspx.designer.vb">
+      <DependentUpon>frmProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmProductos.aspx.vb">
+      <DependentUpon>frmProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmProductos_View.aspx.designer.vb">
+      <DependentUpon>frmProductos_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmProductos_View.aspx.vb">
+      <DependentUpon>frmProductos_View.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmProveedores.aspx.designer.vb">
+      <DependentUpon>frmProveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmProveedores.aspx.vb">
+      <DependentUpon>frmProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmProveedoresView.aspx.designer.vb">
+      <DependentUpon>frmProveedoresView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmProveedoresView.aspx.vb">
+      <DependentUpon>frmProveedoresView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx.designer.vb">
+      <DependentUpon>frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx.vb">
+      <DependentUpon>frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinper.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx.designer.vb">
+      <DependentUpon>frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx.vb">
+      <DependentUpon>frmReporteCostoTotalEnUnaZonaDeTrabajoPorRubrosAgroinperDetail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmReporteSaldosDeAlmacen.aspx.designer.vb">
+      <DependentUpon>frmReporteSaldosDeAlmacen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmReporteSaldosDeAlmacen.aspx.vb">
+      <DependentUpon>frmReporteSaldosDeAlmacen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FrmReporteZTCostosRecursosEtapasActividades.aspx.designer.vb">
+      <DependentUpon>FrmReporteZTCostosRecursosEtapasActividades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FrmReporteZTCostosRecursosEtapasActividades.aspx.vb">
+      <DependentUpon>FrmReporteZTCostosRecursosEtapasActividades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmResumenCosechaporcampanas.aspx.designer.vb">
+      <DependentUpon>frmResumenCosechaporcampanas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmResumenCosechaporcampanas.aspx.vb">
+      <DependentUpon>frmResumenCosechaporcampanas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmResumenCostosEnTodosLosCultivosKilo.aspx.designer.vb">
+      <DependentUpon>frmResumenCostosEnTodosLosCultivosKilo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmResumenCostosEnTodosLosCultivosKilo.aspx.vb">
+      <DependentUpon>frmResumenCostosEnTodosLosCultivosKilo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmSignUp.aspx.designer.vb">
+      <DependentUpon>frmSignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmSignUp.aspx.vb">
+      <DependentUpon>frmSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmZonaTrabajo.aspx.designer.vb">
+      <DependentUpon>frmZonaTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmZonaTrabajo.aspx.vb">
+      <DependentUpon>frmZonaTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmZonaTrabajo_View.aspx.designer.vb">
+      <DependentUpon>frmZonaTrabajo_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmZonaTrabajo_View.aspx.vb">
+      <DependentUpon>frmZonaTrabajo_View.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MasterAgrisoftWeb.Master.designer.vb">
+      <DependentUpon>MasterAgrisoftWeb.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterAgrisoftWeb.Master.vb">
+      <DependentUpon>MasterAgrisoftWeb.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NewPassword.aspx.designer.vb">
+      <DependentUpon>NewPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewPassword.aspx.vb">
+      <DependentUpon>NewPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ResetPassword.aspx.designer.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ResetPassword.aspx.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SessionExpired.aspx.designer.vb">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SessionExpired.aspx.vb">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Unauthorized.aspx.designer.vb">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Unauthorized.aspx.vb">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\UI.Module.vb" />
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ImportarCostos.aspx.designer.vb">
+      <DependentUpon>ImportarCostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ImportarCostos.aspx.vb">
+      <DependentUpon>ImportarCostos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pages\frmResumenCostosEnTodosLosCultivosHA.aspx.designer.vb">
+      <DependentUpon>frmResumenCostosEnTodosLosCultivosHA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmResumenCostosEnTodosLosCultivosHA.aspx.vb">
+      <DependentUpon>frmResumenCostosEnTodosLosCultivosHA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\crActividades.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crActividades.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrCosechasxCampanasDif2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrCosechasxCampanasDif2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crControlPresupuestal.vb">
+      <DependentUpon>crControlPresupuestal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\CrIngresosAlmacen.vb">
+      <DependentUpon>CrIngresosAlmacen.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crCostosEnTodosLosCultivosHa3.vb">
+      <DependentUpon>crCostosEnTodosLosCultivosHa3.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crCostosEnTodosLosCultivosHa21.vb">
+      <DependentUpon>crCostosEnTodosLosCultivosHa2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrCosechas.vb">
+      <DependentUpon>CrCosechas.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\CrCostosWeb.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrCostosWeb.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Crcostosxhaxkgs.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crcostosxhaxkgs.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crCostoTotalEnUnaZonaDeTrabajoPorRubrosDetAgroinper.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crCostoTotalEnUnaZonaDeTrabajoPorRubrosDetAgroinper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crCostoTotalEnUnaZonaDeTrabajoPorRubrosRes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crCostoTotalEnUnaZonaDeTrabajoPorRubrosRes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crCultivos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crCultivos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrCultivoZwRecEtaAct.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrCultivoZwRecEtaAct.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crKardexDeProductoContablebeta4b.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crKardexDeProductoContablebeta4b.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrLineasP.vb">
+      <DependentUpon>CrLineasP.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crMaquinarias.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMaquinarias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrPersonal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPersonal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrProductos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrProductos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crsaldosalmacen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crsaldosalmacen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crZonaTrabajo3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crZonaTrabajo3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource1.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource1.es.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Resource1.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource1.en.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.es.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.en1.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.pt.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Resource1.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource1.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Resource1.quz.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource1.quz.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.quz.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.quz.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Resource1.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource1.fr.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Web.sitemap.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Web.sitemap.fr.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crActividades.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crActividades.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrCosechasxCampanasDif2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrCosechasxCampanasDif2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crControlPresupuestal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crControlPresupuestal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrIngresosAlmacen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrIngresosAlmacen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crCostosEnTodosLosCultivosHa3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCostosEnTodosLosCultivosHa3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crCostosEnTodosLosCultivosHa2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCostosEnTodosLosCultivosHa21.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrCosechas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrCosechas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrCostosWeb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrCostosWeb.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Crcostosxhaxkgs.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crcostosxhaxkgs.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crCostoTotalEnUnaZonaDeTrabajoPorRubrosDetAgroinper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCostoTotalEnUnaZonaDeTrabajoPorRubrosDetAgroinper.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crCostoTotalEnUnaZonaDeTrabajoPorRubrosRes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCostoTotalEnUnaZonaDeTrabajoPorRubrosRes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crCultivos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCultivos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrCultivoZwRecEtaAct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrCultivoZwRecEtaAct.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crKardexDeProductoContablebeta4b.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crKardexDeProductoContablebeta4b.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrLineasP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLineasP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crMaquinarias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMaquinarias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrPersonal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPersonal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrProductos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrProductos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crsaldosalmacen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crsaldosalmacen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crZonaTrabajo3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crZonaTrabajo3.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\MasterAgrisoftWeb.Master" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="App_GlobalResources\Resource1.pt.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.pt.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ClassDiagram2.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\PublishFiles.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Backend\AgrisoftWeb.BL\AgrisoftWeb.BL.vbproj">
+      <Project>{56bc4ff6-01c1-4589-8788-0aedba6de5e1}</Project>
+      <Name>AgrisoftWeb.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9375</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9375/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
